@@ -1,0 +1,350 @@
+{
+  "recentProjects": [
+    {
+      "id": "ecommerce-react",
+      "name": "Plateforme E-Commerce",
+      "category": "web-application",
+      "categoryColor": "blue",
+      "image": "./assets/images/ecommerce.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Une plateforme e-commerce complète construite avec React, Redux et TypeScript. Fonctionnalités: panier d'achat, paiement Stripe, authentification JWT, dashboard admin avec analytics en temps réel.",
+          "categoryLabel": "Application Web",
+          "status": "En ligne",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Redux",
+            "Tailwind CSS",
+            "Node.js",
+            "PostgreSQL",
+            "Stripe"
+          ]
+        },
+        "en": {
+          "description": "A complete e-commerce platform built with React, Redux and TypeScript. Features: shopping cart, Stripe payment, JWT authentication, admin dashboard with real-time analytics.",
+          "categoryLabel": "Web Application",
+          "status": "Online",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Redux",
+            "Tailwind CSS",
+            "Node.js",
+            "PostgreSQL",
+            "Stripe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mobile-app",
+      "name": "Application Mobile React Native",
+      "category": "mobile-application",
+      "categoryColor": "green",
+      "image": "./assets/images/mobile-app.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Application mobile native pour iOS et Android. Gestion des tâches, notifications push, synchronisation avec cloud Firebase, interface responsive et performante.",
+          "categoryLabel": "Application Mobile",
+          "status": "En ligne",
+          "technologies": [
+            "React Native",
+            "Firebase",
+            "TypeScript",
+            "Redux Toolkit",
+            "Jest"
+          ]
+        },
+        "en": {
+          "description": "Native mobile app for iOS and Android. Task management, push notifications, Firebase cloud sync, responsive and performant interface.",
+          "categoryLabel": "Mobile Application",
+          "status": "Online",
+          "technologies": [
+            "React Native",
+            "Firebase",
+            "TypeScript",
+            "Redux Toolkit",
+            "Jest"
+          ]
+        }
+      }
+    },
+    {
+      "id": "saas-dashboard",
+      "name": "Dashboard SaaS Interactif",
+      "category": "dashboard",
+      "categoryColor": "purple",
+      "image": "./assets/images/dashboard.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Dashboard analytique SaaS avec visualisations de données, graphiques interactifs Chart.js, filtres avancés et export de rapports. Conçu pour la scalabilité et la performance.",
+          "categoryLabel": "Dashboard",
+          "status": "En ligne",
+          "technologies": [
+            "Next.js",
+            "React",
+            "Chart.js",
+            "Tailwind CSS",
+            "Supabase",
+            "TypeScript"
+          ]
+        },
+        "en": {
+          "description": "SaaS analytics dashboard with data visualizations, interactive Chart.js graphs, advanced filters and report export. Designed for scalability and performance.",
+          "categoryLabel": "Dashboard",
+          "status": "Online",
+          "technologies": [
+            "Next.js",
+            "React",
+            "Chart.js",
+            "Tailwind CSS",
+            "Supabase",
+            "TypeScript"
+          ]
+        }
+      }
+    }
+  ],
+  "allProjects": [
+    {
+      "id": "ecommerce-react",
+      "name": "Plateforme E-Commerce",
+      "category": "web-application",
+      "categoryColor": "blue",
+      "image": "./assets/images/ecommerce.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Une plateforme e-commerce complète construite avec React, Redux et TypeScript. Fonctionnalités: panier d'achat, paiement Stripe, authentification JWT, dashboard admin avec analytics en temps réel.",
+          "categoryLabel": "Application Web",
+          "status": "En ligne",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Redux",
+            "Tailwind CSS",
+            "Node.js",
+            "PostgreSQL",
+            "Stripe"
+          ]
+        },
+        "en": {
+          "description": "A complete e-commerce platform built with React, Redux and TypeScript. Features: shopping cart, Stripe payment, JWT authentication, admin dashboard with real-time analytics.",
+          "categoryLabel": "Web Application",
+          "status": "Online",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "Redux",
+            "Tailwind CSS",
+            "Node.js",
+            "PostgreSQL",
+            "Stripe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mobile-app",
+      "name": "Application Mobile React Native",
+      "category": "mobile-application",
+      "categoryColor": "green",
+      "image": "./assets/images/mobile-app.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Application mobile native pour iOS et Android. Gestion des tâches, notifications push, synchronisation avec cloud Firebase, interface responsive et performante.",
+          "categoryLabel": "Application Mobile",
+          "status": "En ligne",
+          "technologies": [
+            "React Native",
+            "Firebase",
+            "TypeScript",
+            "Redux Toolkit",
+            "Jest"
+          ]
+        },
+        "en": {
+          "description": "Native mobile app for iOS and Android. Task management, push notifications, Firebase cloud sync, responsive and performant interface.",
+          "categoryLabel": "Mobile Application",
+          "status": "Online",
+          "technologies": [
+            "React Native",
+            "Firebase",
+            "TypeScript",
+            "Redux Toolkit",
+            "Jest"
+          ]
+        }
+      }
+    },
+    {
+      "id": "saas-dashboard",
+      "name": "Dashboard SaaS Interactif",
+      "category": "dashboard",
+      "categoryColor": "purple",
+      "image": "./assets/images/dashboard.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Dashboard analytique SaaS avec visualisations de données, graphiques interactifs Chart.js, filtres avancés et export de rapports. Conçu pour la scalabilité et la performance.",
+          "categoryLabel": "Dashboard",
+          "status": "En ligne",
+          "technologies": [
+            "Next.js",
+            "React",
+            "Chart.js",
+            "Tailwind CSS",
+            "Supabase",
+            "TypeScript"
+          ]
+        },
+        "en": {
+          "description": "SaaS analytics dashboard with data visualizations, interactive Chart.js graphs, advanced filters and report export. Designed for scalability and performance.",
+          "categoryLabel": "Dashboard",
+          "status": "Online",
+          "technologies": [
+            "Next.js",
+            "React",
+            "Chart.js",
+            "Tailwind CSS",
+            "Supabase",
+            "TypeScript"
+          ]
+        }
+      }
+    },
+    {
+      "id": "api-rest",
+      "name": "API REST Scalable",
+      "category": "backend",
+      "categoryColor": "cyan",
+      "image": "./assets/images/api.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "API REST complète avec Node.js/Express, authentification OAuth2, rate limiting, documentation Swagger, tests unitaires Jest et intégration CI/CD.",
+          "categoryLabel": "Backend",
+          "status": "En ligne",
+          "technologies": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "JWT",
+            "Docker",
+            "Jest",
+            "Swagger"
+          ]
+        },
+        "en": {
+          "description": "Complete REST API with Node.js/Express, OAuth2 authentication, rate limiting, Swagger documentation, Jest unit tests and CI/CD integration.",
+          "categoryLabel": "Backend",
+          "status": "Online",
+          "technologies": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "JWT",
+            "Docker",
+            "Jest",
+            "Swagger"
+          ]
+        }
+      }
+    },
+    {
+      "id": "web-scraper",
+      "name": "Web Scraper Automatisé",
+      "category": "utility",
+      "categoryColor": "green",
+      "image": "./assets/images/scraper.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Outil de web scraping avec Puppeteer et Node.js. Extraction de données structurées, stockage en base de données, planification avec Cron, notifications email automatiques.",
+          "categoryLabel": "Utilitaire",
+          "status": "En ligne",
+          "technologies": [
+            "Node.js",
+            "Puppeteer",
+            "Cheerio",
+            "MongoDB",
+            "Cron",
+            "Nodemailer"
+          ]
+        },
+        "en": {
+          "description": "Web scraping tool with Puppeteer and Node.js. Structured data extraction, database storage, Cron scheduling, automated email notifications.",
+          "categoryLabel": "Utility",
+          "status": "Online",
+          "technologies": [
+            "Node.js",
+            "Puppeteer",
+            "Cheerio",
+            "MongoDB",
+            "Cron",
+            "Nodemailer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pwa",
+      "name": "Progressive Web App",
+      "category": "pwa",
+      "categoryColor": "blue",
+      "image": "./assets/images/pwa.png",
+      "demoLink": "#",
+      "githubLink": "#",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Application web progressive avec service workers, offline-first architecture, synchronisation en arrière-plan et installation comme application native.",
+          "categoryLabel": "Progressive Web App",
+          "status": "En ligne",
+          "technologies": [
+            "React",
+            "Service Workers",
+            "Workbox",
+            "IndexedDB",
+            "Tailwind CSS",
+            "Next.js"
+          ]
+        },
+        "en": {
+          "description": "Progressive web app with service workers, offline-first architecture, background sync and installation as native app.",
+          "categoryLabel": "Progressive Web App",
+          "status": "Online",
+          "technologies": [
+            "React",
+            "Service Workers",
+            "Workbox",
+            "IndexedDB",
+            "Tailwind CSS",
+            "Next.js"
+          ]
+        }
+      }
+    }
+  ]
+}

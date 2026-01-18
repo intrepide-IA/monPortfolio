@@ -1,0 +1,305 @@
+{
+  "recentProjects": [
+    {
+      "id": "kilofree",
+      "name": "KILOFREE",
+      "category": "mobile-application",
+      "categoryColor": "green",
+      "image": "./assets/images/kilofree.png",
+      "figmaLink": "https://www.figma.com/proto/hu3ZasIuu2xLSxhI827QhA/KiloFree?page-id=2%3A309&node-id=526-3431&p=f&viewport=444%2C82%2C0.03&t=2BP3zcsI8wzsi3ME-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://kilofree.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "KiloFree est une application mobile française qui met en relation voyageurs et expéditeurs pour vendre ou acheter de l’espace libre dans les bagages. Publiez une offre, trouvez votre correspondance et concluez en toute simplicité.",
+          "categoryLabel": "Application mobile",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "KiloFree is a French mobile app connecting travelers and shippers to sell or buy unused baggage space. Post an offer, find your match, and complete your deal effortlessly.",
+          "categoryLabel": "Mobile application",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "rdvimmo",
+      "name": "RDVIMMO",
+      "category": "real-estate-platform",
+      "categoryColor": "purple",
+      "image": "./assets/images/rdvimmo.png",
+      "figmaLink": "https://www.figma.com/proto/UnmuBhnd6ukAMcaRHQTTSk/RdvImmob.fr?page-id=2%3A2&node-id=13-1100&viewport=-3944%2C-8415%2C1&t=BuRUHcRUtGz7VZIu-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://rdvimmo.fr/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "RdvImmo est une plateforme française de services immobiliers qui met en relation les experts du secteur (diagnostiqueurs, notaires, avocats, agents) avec les clients à la recherche de prestations en ligne.",
+          "categoryLabel": "Plateforme immobilière",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "RdvImmo is a French real estate service platform connecting industry professionals (inspectors, notaries, lawyers, agents) with clients seeking property-related services online.",
+          "categoryLabel": "Real estate platform",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "promoradio",
+      "name": "PROMORADIO",
+      "category": "music-promotion",
+      "categoryColor": "pink",
+      "image": "./assets/images/promoradio.png",
+      "figmaLink": "https://www.figma.com/proto/nz2ePplRHqoKSxuzBett50/PromoRadio?page-id=0%3A1&node-id=177-684&p=f&viewport=212%2C104%2C0.05&t=vPlye6YuAnoCdL1b-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": null,
+      "status": "in-development",
+      "translations": {
+        "fr": {
+          "description": "PromoRadion est une plateforme destinée aux talents émergents de la musique, leur permettant de promouvoir leurs œuvres sur les radios partenaires via un abonnement flexible et accessible.",
+          "categoryLabel": "Plateforme musicale",
+          "status": "en développement"
+        },
+        "en": {
+          "description": "PromoRadion is a platform designed for emerging music artists, helping them promote their work on partner radio stations through a simple and affordable subscription system.",
+          "categoryLabel": "Music platform",
+          "status": "in development"
+        }
+      }
+    }
+  ],
+  "allProjects": [
+    
+    {
+      "id": "sinistres-re",
+      "name": "SINISTRES-RE",
+      "category": "insurance-platform",
+      "categoryColor": "purple",
+      "image": "./assets/images/sinistre.png",
+      "figmaLink": "https://www.figma.com/proto/mgy045qCESma1WDi3Kswkz/sinistre?page-id=17%3A256&node-id=635-1016&viewport=-467%2C271%2C0.05&t=TjOWnCMFBb4KeSSt-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": "https://sinistres-re.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Sinistres-Re aide les assurés à mieux défendre leurs droits face aux assureurs et à résoudre leurs litiges plus efficacement.",
+          "categoryLabel": "Plateforme d’assurance",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Sinistres-Re helps policyholders assert their rights and resolve insurance disputes efficiently.",
+          "categoryLabel": "Insurance platform",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "djiguifa",
+      "name": "DJIGUIFA",
+      "category": "e-commerce",
+      "categoryColor": "pink",
+      "image": "./assets/images/djiguifa.png",
+      "figmaLink": "https://www.figma.com/proto/Gpx25e98DDDkhdDZ0yE4Aw/Djiguifa?page-id=289%3A660&node-id=538-3955&p=f&viewport=209%2C95%2C0.05&t=DPsmOXnvWDmBu73F-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://djiguifa.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Djiguifa relie commerçants et clients maliens grâce à un système simple de bons d’achat sécurisés.",
+          "categoryLabel": "Plateforme e-commerce",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Djiguifa connects Malian merchants and customers through a simple, secure voucher system.",
+          "categoryLabel": "E-commerce platform",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "swapeco",
+      "name": "SWAPECO",
+      "category": "eco-platform",
+      "categoryColor": "blue",
+      "image": "./assets/images/swapeco.png",
+      "figmaLink": "https://www.figma.com/proto/xhH2JdSyzmrKcaF5OGTenP/SwapEco?page-id=0%3A1&node-id=1720-19652&viewport=261%2C173%2C0.02&t=yjaTOMeuGPEcsUqn-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://swapeco.eu/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "SwapEco est une plateforme européenne qui promeut l’économie circulaire en facilitant l’échange et la valorisation des surplus locaux.",
+          "categoryLabel": "Plateforme éco-solidaire",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "SwapEco is a European platform that promotes circular economy by enabling exchange and reuse of local surpluses.",
+          "categoryLabel": "Eco-solidarity platform",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "unyzer",
+      "name": "UNYZER",
+      "category": "community-platform",
+      "categoryColor": "purple",
+      "image": "./assets/images/unyzer.png",
+      "figmaLink": "https://www.figma.com/proto/7gLuSL7fR25MTTF4m2GYcr/Unizer_App?page-id=2%3A95&node-id=217-5929&p=f&viewport=99%2C420%2C0.03&t=EBNMqRHK0hSOEkeQ-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": null,
+      "status": "in-development",
+      "translations": {
+        "fr": {
+          "description": "Unyzer est une plateforme communautaire en France qui permettra aux citoyens de dénoncer les abus sociaux grâce à des actions collectives.",
+          "categoryLabel": "Plateforme communautaire",
+          "status": "en développement"
+        },
+        "en": {
+          "description": "Unyzer is a community platform in France that will allow citizens to report social abuses through collective action.",
+          "categoryLabel": "Community platform",
+          "status": "in development"
+        }
+      }
+    },
+    {
+      "id": "whenusu",
+      "name": "WHENUSU",
+      "category": "cultural-heritage",
+      "categoryColor": "pink",
+      "image": "./assets/images/whenusu.png",
+      "figmaLink": "https://www.figma.com/proto/fjDSZArzqZR9MsSVEAE0qs/WHENUSU?page-id=5%3A234&node-id=7-1462&p=f&viewport=342%2C53%2C0.04&t=rHu1CoHLQPN5AejW-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": null,
+      "status": "in-development",
+      "translations": {
+        "fr": {
+          "description": "WHENUSU est une application béninoise qui valorise les traditions locales en cartographiant panégyriques et chants de chaque région.",
+          "categoryLabel": "Patrimoine culturel",
+          "status": "en développement"
+        },
+        "en": {
+          "description": "WHENUSU is a Beninese application that values local traditions by mapping panegyrics and songs from each region.",
+          "categoryLabel": "Cultural heritage",
+          "status": "in development"
+        }
+      }
+    },
+    {
+      "id": "jaddi",
+      "name": "JADDI",
+      "category": "website",
+      "categoryColor": "blue",
+      "image": "./assets/images/jaddi.png",
+      "figmaLink": "https://www.figma.com/proto/jwzxkzQ7TDBxhRLB6SfrzE/projet-JADDI?page-id=0%3A1&node-id=1-2&p=f&viewport=461%2C229%2C0.03&t=rDwP1Q77AX8Hhck0-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://jaddi-benin.org/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Une organisation engagée dans la promotion de l'écotourisme, la gestion durable de l'environnement, le soutien aux femmes et aux jeunes, ainsi que le développement des communautés locales.",
+          "categoryLabel": "Site web"
+        },
+        "en": {
+          "description": "An organization committed to promoting ecotourism, sustainable environmental management, supporting women and youth, and developing local communities.",
+          "categoryLabel": "Website"
+        }
+      }
+    },
+    {
+      "id": "oktopus",
+      "name": "OKTOPUS",
+      "category": "smart-note",
+      "categoryColor": "purple",
+      "image": "./assets/images/Oktopus.png",
+      "figmaLink": "https://www.figma.com/proto/zyEanauvev5PjpRsvKiieU/Oktopus-projet?page-id=0%3A1&node-id=1-2&p=f&viewport=108%2C106%2C0.03&t=ftlNGINBfO14odxV-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": null,
+      "status": "in-development",
+      "translations": {
+        "fr": {
+          "description": "Oktopus est un bloc-notes intelligent qui aide à mieux structurer ses informations grâce à l'IA intégrée.",
+          "categoryLabel": "Bloc note intelligent",
+          "status": "en développement"
+        },
+        "en": {
+          "description": "Oktopus is an intelligent note-taking app that helps better structure information through integrated AI.",
+          "categoryLabel": "Smart note",
+          "status": "in development"
+        }
+      }
+    },
+    {
+      "id": "crew-sailing",
+      "name": "CREW SAILING",
+      "category": "crew-matching",
+      "categoryColor": "pink",
+      "image": "./assets/images/Crew-sailing.png",
+      "figmaLink": "https://www.figma.com/proto/AS6ceLYSzMaGMRFHQUCJli/Crew-Sailing?page-id=0%3A1&node-id=1-3&p=f&viewport=84%2C313%2C0.02&t=fi1TVtlrNw1nIWHg-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": "https://www.crew-sailing.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Crew Sailing est une plateforme qui met en relation capitaines et équipiers afin de constituer l'équipage idéal pour un voyage en mer, avec une vérification intégrée basée sur le test DISC de personnalité.",
+          "categoryLabel": "Crew matching"
+        },
+        "en": {
+          "description": "Crew Sailing is a platform that connects captains and crew members to form the ideal crew for a sea voyage, with integrated verification based on the DISC personality test.",
+          "categoryLabel": "Crew matching"
+        }
+      }
+    },
+    {
+      "id": "exclusivert",
+      "name": "EXCLUSIVERT",
+      "category": "sustainable-industry",
+      "categoryColor": "blue",
+      "image": "./assets/images/Exclusivert.png",
+      "figmaLink": "https://www.figma.com/proto/5ePgKS9ZhZfyVVOEEHQVR6/EXCLUSIVOR?page-id=0%3A1&node-id=401-3955&p=f&viewport=-505%2C102%2C0.02&t=Mg5R8ffiuqhn5JE3-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=2%3A12997",
+      "websiteLink": "https://exclusivert.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Exclusivert est un site de solutions biosourcées qui transforme les pommes de terre déclassées en produits durables pour l'industrie et la consommation.",
+          "categoryLabel": "Industrie durable"
+        },
+        "en": {
+          "description": "Exclusivert is a site of biosourced solutions that transforms rejected potatoes into sustainable products for industry and consumption.",
+          "categoryLabel": "Sustainable industry"
+        }
+      }
+    },
+    {
+      "id": "wevi-fisheries",
+      "name": "WEVI FISHERIES",
+      "category": "aquaculture",
+      "categoryColor": "purple",
+      "image": "./assets/images/Wevi-fisheries.png",
+      "figmaLink": "https://www.figma.com/proto/V2cQUxwzjA0ssvt0A3A3S9/refont-Fisher?page-id=12%3A359&node-id=14-356&p=f&viewport=279%2C71%2C0.03&t=Aay42PH93AAszUwO-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": "https://wevi.niyiexpertise.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Wevi-Fisheries est une entreprise spécialisée aquacole dans la collecte, la transformation des systèmes d'élevage et la distribution de poissons-chats africains.",
+          "categoryLabel": "Produits halieutiques du Bénin"
+        },
+        "en": {
+          "description": "Wevi-Fisheries is an aquaculture company specializing in the collection, transformation of farming systems, and distribution of African catfish.",
+          "categoryLabel": "Beninese fishery products"
+        }
+      }
+    },
+    {
+      "id": "tgk-company",
+      "name": "TGK-COMPANY",
+      "category": "maritime",
+      "categoryColor": "pink",
+      "image": "./assets/images/Tgk-company.png",
+      "figmaLink": "https://www.figma.com/proto/RjnYevLCudb0iU7owNE0rZ/Projet-TGK-company?page-id=11%3A309&node-id=11-310&p=f&viewport=345%2C176%2C0.02&t=HO70wyUy6feIDbsV-1&scaling=scale-down-width&content-scaling=fixed",
+      "websiteLink": "https://tgk-company.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Construire l'avenir de l'excellence maritime. Fournir des solutions maritimes, de construction navale et de réparation de moteurs avec une expertise et un dévouement inégalés.",
+          "categoryLabel": "Fabrication et vente de barque"
+        },
+        "en": {
+          "description": "Building the future of maritime excellence. Providing maritime solutions, shipbuilding, and engine repair services with unmatched expertise and dedication.",
+          "categoryLabel": "Boat manufacturing and sales"
+        }
+      }
+    }
+  ]
+}

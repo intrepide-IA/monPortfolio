@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/images/favicon.png" />
+
+    <!-- Title -->
+    <title>Imdad ADENON | Designer web et mobile UI/UX</title>
+
+    <!-- Meta Tags de base -->
+    <meta name="title" content="Imdad ADENON – UI/UX Designer" />
+    <meta
+      name="description"
+      content="Designer UI/UX spécialisé en web & mobile, créant des expériences digitales modernes, intuitives et esthétiques. Portfolio de projets innovants."
+    />
+    <meta
+      name="keywords"
+      content="UI/UX Designer, Designer web, Designer mobile, Figma, Portfolio, Bénin, Cotonou"
+    />
+    <meta name="author" content="Imdad ADENON" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imdadadenon.vercel.app/" />
+    <meta property="og:site_name" content="Imdad ADENON Portfolio" />
+    <meta
+      property="og:title"
+      content="Imdad ADENON – Designer UI/UX Web & Mobile"
+    />
+    <meta
+      property="og:description"
+      content="Designer UI/UX spécialisé en web & mobile | Création d'expériences digitales modernes et élégantes | Portfolio de +20 projets | Bénin 🇧🇯"
+    />
+    <meta
+      property="og:image"
+      content="https://imdadadenon.vercel.app/assets/images/preview.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://imdadadenon.vercel.app/assets/images/preview.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Imdad ADENON - Portfolio UI/UX Designer"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://imdadadenon.vercel.app/" />
+    <meta name="twitter:site" content="@imdadadenon" />
+    <meta name="twitter:creator" content="@imdadadenon" />
+    <meta
+      name="twitter:title"
+      content="Imdad ADENON – Designer UI/UX Web & Mobile"
+    />
+    <meta
+      name="twitter:description"
+      content="Designer UI/UX spécialisé en web & mobile | Création d'expériences digitales modernes et élégantes | Portfolio de +20 projets | Bénin 🇧🇯"
+    />
+    <meta
+      name="twitter:image"
+      content="https://imdadadenon.vercel.app/assets/images/preview.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Imdad ADENON - Portfolio UI/UX Designer"
+    />
+
+    <!-- WhatsApp spécifique (utilise Open Graph) -->
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="200" />
+
+    <!-- Telegram (utilise Open Graph) -->
+    <meta property="telegram:channel" content="@imdadadenon" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Imdad ADENON",
+        "jobTitle": "UI/UX Designer",
+        "description": "Designer UI/UX spécialisé en web & mobile, créant des expériences digitales modernes, intuitives et esthétiques.",
+        "url": "https://imdadadenon.vercel.app/",
+        "image": "https://imdadadenon.vercel.app/assets/images/preview.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/imdad-adenon-304975275",
+          "https://www.instagram.com/imdadadenon",
+          "https://www.facebook.com/profile.php?id=100086006742732"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cotonou",
+          "addressCountry": "BJ"
+        },
+        "email": "imdadadenon@gmail.com",
+        "telephone": "+22999997031"
+      }
+    </script>
+
+    <!-- Scripts externes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Toggle langue -->
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Background Animation -->
+    <div id="vantabg" class="particle-bg">
+      <canvas
+        id="techVizCanvas"
+        class="absolute inset-0 !w-full !h-full"
+      ></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav
+      class="fixed w-full z-50 bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg border-b border-gray-800"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          <!-- LOGO -->
+          <div class="flex items-center">
+            <span class="text-2xl font-bold gradient-text tech-font">
+              IMDAD ADENON
+            </span>
+          </div>
+
+          <!-- LIENS DESKTOP -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#"
+              class="nav-link text-sm font-medium"
+              data-i18n="nav-home"
+              >Accueil</a
+            >
+            <a
+              href="#rprojet"
+              class="nav-link text-sm font-medium"
+              data-i18n="nav-recent"
+              >Projets récents</a
+            >
+            <a
+              href="#skiil"
+              class="nav-link text-sm font-medium"
+              data-i18n="nav-skills"
+              >Compétences</a
+            >
+            <a
+              href="#about"
+              class="nav-link text-sm font-medium"
+              data-i18n="nav-about"
+              >À propos</a
+            >
+            <a
+              href="#projet"
+              class="nav-link text-sm font-medium"
+              data-i18n="nav-projects"
+              >Mes Projets</a
+            >
+          </div>
+
+          <!-- ACTIONS DESKTOP -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a
+              href="developer.html"
+              class="px-4 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white transition"
+            >
+              Profil Développeur
+            </a>
+
+            <a
+              href="#contact"
+              class="relative overflow-hidden group border-2 border-blue-400 px-5 py-2 rounded-full text-white font-medium"
+            >
+              <span class="relative z-10" data-i18n="nav-contact">Contact</span>
+              <span
+                class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-0 group-hover:opacity-100 transition"
+              ></span>
+            </a>
+          </div>
+
+          <!-- BOUTON MOBILE -->
+          <button
+            id="menu-toggle"
+            class="md:hidden text-white text-2xl focus:outline-none"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- MENU MOBILE -->
+
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-black/90 backdrop-blur-lg border-t border-gray-800"
+      >
+        <div class="flex flex-col items-center gap-4 py-6">
+          <a href="#" class="nav-link" data-i18n="nav-home">Accueil</a>
+          <a href="#rprojet" class="nav-link" data-i18n="nav-recent"
+            >Projets récents</a
+          >
+          <a href="#skiil" class="nav-link" data-i18n="nav-skills"
+            >Compétences</a
+          >
+          <a href="#about" class="nav-link" data-i18n="nav-about">À propos</a>
+          <a href="#projet" class="nav-link" data-i18n="nav-projects"
+            >Mes Projets</a
+          >
+
+          <a
+            href="developer.html"
+            class="mt-4 px-4 py-2 rounded-full border border-purple-500 text-purple-400"
+          >
+            Profil Développeur
+          </a>
+
+          <a
+            href="#contact"
+            class="px-6 py-2 rounded-full border-2 border-blue-400 text-white"
+            data-i18n="nav-contact"
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-section h-screen flex items-center justify-center relative overflow-hidden px-4"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 lg:py-40 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+      >
+        <div class="text-center mt-36 lg:text-left">
+          <div class="relative inline-block mb-4 md:mb-6">
+            <div
+              class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-xl blur opacity-75"
+            ></div>
+            <span
+              data-i18n="hero-badge"
+              class="relative px-3 md:px-4 py-2 bg-black rounded-lg text-xs md:text-sm font-medium tech-font"
+            >
+              FUTURE DU DESIGN UI/UX
+            </span>
+          </div>
+
+          <h1
+            class="text-2xl mt-4 sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight tech-font"
+          >
+            <span class="gradient-text">IMDAD ADENON</span
+            ><br class="block md:hidden" />
+            <span data-i18n="hero-title">Designer UI/UX</span>
+          </h1>
+
+          <p
+            data-i18n="hero-desc"
+            class="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0 mb-8 md:mb-10"
+          >
+            Mon objectif est de transformer vos idées en produits digitaux
+            élégants, fonctionnels et mémorables.
+          </p>
+
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+          >
+            <a
+              href="./CV Imdad ADENON.pdf"
+              target="_blank"
+              class="relative overflow-hidden group px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-base sm:text-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
+            >
+              <span class="relative z-10" data-i18n="btn-cv"
+                >Télécharger mon CV</span
+              >
+              <span
+                class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-all duration-500"
+              ></span>
+            </a>
+            <a
+              href="#projet"
+              class="px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium text-base sm:text-lg border-2 border-blue-400 hover:border-purple-500 text-white hover:text-blue-200 transition-all duration-300 transform hover:scale-105"
+              data-i18n="btn-projects"
+            >
+              Mes projets
+            </a>
+          </div>
+        </div>
+
+        <!-- Zone visuelle avec 3D -->
+        <div
+          class="relative flex items-center justify-center h-72 sm:h-80 md:h-96 lg:h-auto"
+        >
+          <div
+            class="absolute w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96"
+          >
+            <div class="floating-torus h-full w-full">
+              <canvas id="torusCanvas" class="h-full w-full opacity-0"></canvas>
+            </div>
+          </div>
+
+          <div
+            class="holographic w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full opacity-90 relative"
+          >
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div
+                class="text-center flex justify-center p-4 sm:p-6 w-full h-full overflow-hidden"
+              >
+                <img
+                  class="relative rounded-full w-full h-full object-cover"
+                  src="./assets/images/moi_pro.png"
+                  alt="Photo de profil"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="absolute -left-6 sm:-left-10 top-1/4 w-12 h-12 sm:w-16 sm:h-16"
+          >
+            <div class="floating-cube h-full w-full">
+              <canvas id="cubeCanvas" class="h-full w-full opacity-0"></canvas>
+            </div>
+          </div>
+
+          <div
+            class="absolute -right-6 sm:-right-10 bottom-1/3 w-14 h-14 sm:w-20 sm:h-20"
+          >
+            <div class="floating-pyramid h-full w-full">
+              <canvas
+                id="pyramidCanvas"
+                class="h-full w-full opacity-0"
+              ></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets Récents Section -->
+    <section id="rprojet" class="py-20 relative overflow-hidden px-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-5xl font-bold mb-4 tech-font">
+            <span class="gradient-text" data-i18n="section-recent"
+              >Mes projets</span
+            >
+            <span data-i18n="section-recent-title"> récents</span>
+          </h2>
+          <p
+            class="text-xl text-gray-300 max-w-4xl mx-auto"
+            data-i18n="section-recent-desc"
+          >
+            Découvrez une sélection de mes dernières réalisations en design
+            UI/UX, où chaque projet reflète mon souci du détail, ma créativité
+            et ma passion pour des expériences utilisateur uniques.
+          </p>
+        </div>
+
+        <!-- Container pour les projets récents (géré par JS) -->
+        <div
+          id="recent-projects-container"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Les projets seront injectés ici par JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION COMPÉTENCES ========== -->
+    <section id="skiil" class="relative overflow-hidden px-4 py-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="mt-6 relative min-h-[400px] sm:min-h-[450px] md:min-h-[500px] rounded-3xl overflow-hidden hologram-effect scanline noise"
+        >
+          <canvas
+            id="techVizCanvas2"
+            class="absolute inset-0 !w-full !h-full"
+          ></canvas>
+
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center p-6 sm:p-8 max-w-3xl">
+              <h3
+                class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 gradient-text tech-font"
+                data-i18n="skills-title"
+              >
+                Mes Compétences
+              </h3>
+
+              <p
+                class="text-gray-300 mb-6 text-sm sm:text-base md:text-lg"
+                data-i18n="skills-desc"
+              >
+                Un mélange de créativité et de technique pour concevoir des
+                interfaces intuitives et engageantes.
+              </p>
+
+              <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
+                <button
+                  class="px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium bg-blue-500/20 border border-blue-400/50 hover:bg-blue-500/30"
+                >
+                  Figma
+                </button>
+                <button
+                  class="px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium bg-pink-500/20 border border-pink-400/50 hover:bg-pink-500/30"
+                >
+                  UI/UX
+                </button>
+                <button
+                  class="px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium bg-purple-500/20 border border-purple-400/50 hover:bg-purple-500/30"
+                >
+                  Photoshop
+                </button>
+                <button
+                  class="px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium bg-blue-500/20 border border-blue-400/50 hover:bg-blue-500/30"
+                >
+                  Prototypage
+                </button>
+                <button
+                  class="px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium bg-pink-500/20 border border-pink-400/50 hover:bg-pink-500/30"
+                >
+                  Design web & mobile
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== À PROPOS ========== -->
+        <section id="about" class="py-10 relative overflow-hidden px-4">
+          <div
+            class="flex flex-col md:flex-row max-w-7xl mx-auto px-2 sm:px-2 lg:px-2"
+          >
+            <!-- Section gauche -->
+            <div class="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
+              <h2
+                class="text-3xl md:text-4xl font-bold mb-4 gradient-text tech-font"
+                data-i18n="about-title"
+              >
+                À propos de moi
+              </h2>
+              <p class="text-gray-300 mb-6" data-i18n="about-text">
+                Passionné par la technologie depuis mon plus jeune âge, j'ai
+                rapidement découvert que je m'épanouissais davantage dans
+                l'univers du design. C'est cette affinité qui m'a conduit à
+                orienter ma carrière vers le design UI/UX, un domaine où je peux
+                allier créativité, sens du détail et compréhension des besoins
+                utilisateurs.
+              </p>
+
+              <div class="space-y-4 mb-8">
+                <div class="flex items-start items-center">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="ml-3">
+                    <p class="text-gray-300" data-i18n="exp-1">
+                      Plus de 1 ans d'expérience dans le design web et mobile
+                      UI/UX.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start items-center">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="ml-3">
+                    <p class="text-gray-300" data-i18n="exp-2">
+                      Diplômé en Système Informatique & logiciel à l'UATM
+                      Gasa-Formation du Bénin.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start items-center">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-check"></i>
+                    </div>
+                  </div>
+                  <div class="ml-3">
+                    <p class="text-gray-300" data-i18n="exp-3">
+                      Plus de 20 projets réalisés pour des clients variés.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a
+                href="./CV Imdad ADENON.pdf"
+                target="_blank"
+                class="relative overflow-hidden group bg-transparent border-2 border-blue-400 hover:border-purple-500 text-white px-6 py-2 rounded-full font-medium transition-all duration-500"
+              >
+                <span class="relative z-10" data-i18n="btn-cv"
+                  ><i class="fas fa-download mr-2"></i>Télécharger mon cv</span
+                >
+                <span
+                  class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500"
+                ></span>
+              </a>
+            </div>
+
+            <!-- Section droite - Parcours -->
+            <div
+              class="holographic rounded-3xl p-4 md:p-4 items-center md:w-1/2"
+            >
+              <div class="animate-fadeIn" style="animation-delay: 0.3s">
+                <div class="w-full rounded-lg">
+                  <h3
+                    class="text-3xl md:text-4xl font-bold mb-4 gradient-text tech-font"
+                    data-i18n="journey-title"
+                  >
+                    Mon Parcours
+                  </h3>
+
+                  <div class="w-full space-y-8">
+                    <!-- Expérience 1 -->
+                    <div class="flex">
+                      <div class="flex-shrink-0 mr-4">
+                        <div
+                          class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fas fa-briefcase gradient-text"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <h4 class="font-medium gradient-text" data-i18n="job-1">
+                          Lead Designer web et mobile UI/UX
+                        </h4>
+                        <p class="text-sm text-Blue-500 mb-1">
+                          <a
+                            class="text-decoration underline"
+                            data-i18n="job-1-company"
+                            href="https://niyiexpertise.com/home"
+                            >Niyi expertise</a
+                          >. •
+                          <span data-i18n="job-1-date"
+                            >Juillet 2025 - Présent</span
+                          >
+                        </p>
+                        <p class="text-gray-300" data-i18n="job-1-desc">
+                          Responsable de la conception, de la direction créative
+                          et de l'optimisation des expériences utilisateurs sur
+                          web et mobile. Supervision du processus de design, de
+                          la recherche utilisateur jusqu'aux prototypes
+                          interactifs, en collaboration avec les équipes de
+                          développement.
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Expérience 2 -->
+                    <div class="flex">
+                      <div class="flex-shrink-0 mr-4">
+                        <div
+                          class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fas fa-briefcase gradient-text"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <h4 class="font-medium gradient-text" data-i18n="job-2">
+                          Stagiaire en design web et mobile UI/UX
+                        </h4>
+                        <p class="text-sm text-Blue-500 mb-1">
+                          <a
+                            class="text-decoration underline"
+                            data-i18n="job-1-company"
+                            href="https://niyiexpertise.com/home"
+                            >Niyi expertise</a
+                          >. •
+                          <span data-i18n="job-2-date"
+                            >Avril 2025 - Juin 2025</span
+                          >
+                        </p>
+                        <p class="text-gray-300" data-i18n="job-2-desc">
+                          Participation à la création d'interfaces intuitives et
+                          esthétiques. Contribution aux maquettes, wireframes et
+                          prototypes interactifs en respectant les guidelines de
+                          l'entreprise et les bonnes pratiques UX.
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Expérience 3 -->
+                    <div class="flex">
+                      <div class="flex-shrink-0 mr-4">
+                        <div
+                          class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fas fa-briefcase gradient-text"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <h4 class="font-medium gradient-text" data-i18n="job-3">
+                          Stagiaire en développement web et mobile designer
+                          UI/UX
+                        </h4>
+                        <p class="text-sm text-Blue-500 mb-1">
+                          <a
+                            class="text-decoration underline"
+                            data-i18n="job-3-company"
+                            href="https://payplus.africa/"
+                            >La pieuvre technologie</a
+                          >. •
+                          <span data-i18n="job-3-date"
+                            >Juillet 2024 - Octobre 2024</span
+                          >
+                        </p>
+                        <p class="text-gray-300" data-i18n="job-3-desc">
+                          Conception et amélioration des interfaces utilisateur
+                          pour offrir des expériences digitales modernes et
+                          ergonomiques. Collaboration étroite avec les équipes
+                          produit et développement pour transformer les besoins
+                          en solutions concrètes et fonctionnelles.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="projet" class="py-20 relative overflow-hidden px-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+          <h2
+            class="text-3xl md:text-5xl font-bold mb-4 tech-font"
+            data-i18n="projects-title"
+          >
+            <span class="gradient-text">Mes projets</span>
+          </h2>
+          <p
+            class="text-xl text-gray-300 max-w-4xl mx-auto"
+            data-i18n="projects-desc"
+          >
+            Un aperçu de mes réalisations en design UI/UX, alliant créativité,
+            ergonomie et sens du détail.
+          </p>
+        </div>
+
+        <div
+          class="holographic rounded-3xl p-4 sm:p-4 md:p-4 lg:p-4 max-w-3xl mx-auto mb-10"
+        >
+          <div class="animate-fadeIn" style="animation-delay: 0.3s">
+            <div class="w-full">
+              <h3
+                class="text-xl sm:text-2xl md:text-3xl font-bold mb-4 gradient-text tech-font"
+                data-i18n="note-title"
+              >
+                Note :
+              </h3>
+              <p
+                class="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed"
+                data-i18n="note-text"
+              >
+                Les projets présentés ici ne représentent qu'une partie de mon
+                travail. Certains demeurent confidentiels en raison d'accords de
+                confidentialité avec les clients, tandis que d'autres sont
+                encore en cours de réalisation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Container pour tous les projets (géré par JS) -->
+        <div
+          id="all-projects-container"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Les projets seront injectés ici par JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== QUI SUIS-JE ? ========== -->
+    <section class="py-20 relative overflow-hidden px-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="holographic rounded-3xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+        >
+          <div>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 tech-font">
+              <span class="gradient-text" data-i18n="who-am-i"
+                >Qui suis-je ?</span
+              >
+            </h2>
+            <p class="text-xl text-gray-300 mb-8" data-i18n="who-desc">
+              Designer UI/UX passionné par la création d'expériences digitales
+              intuitives, esthétiques et fonctionnelles.
+            </p>
+            <div class="grid grid-cols-2 gap-6">
+              <div>
+                <div
+                  class="text-4xl font-bold gradient-text mb-2 tech-font"
+                  data-i18n="exp-years"
+                >
+                  1+ ans
+                </div>
+                <p class="text-gray-400" data-i18n="exp-years-desc">
+                  Expérience en design et développement digital
+                </p>
+              </div>
+              <div>
+                <div
+                  class="text-4xl font-bold gradient-text mb-2 tech-font"
+                  data-i18n="exp-design"
+                >
+                  UI/UX
+                </div>
+                <p class="text-gray-400" data-i18n="exp-design-desc">
+                  Spécialisation en design web & mobile
+                </p>
+              </div>
+              <div>
+                <div
+                  class="text-4xl font-bold gradient-text mb-2 tech-font"
+                  data-i18n="exp-frontend"
+                >
+                  Front-end
+                </div>
+                <p class="text-gray-400" data-i18n="exp-frontend-desc">
+                  Maîtrise de React, Tailwind CSS & intégration responsive
+                </p>
+              </div>
+              <div>
+                <div
+                  class="text-4xl font-bold gradient-text mb-2 tech-font"
+                  data-i18n="exp-rating"
+                >
+                  4.8/5
+                </div>
+                <p class="text-gray-400" data-i18n="exp-rating-desc">
+                  Satisfaction moyenne de mes projets et collaborations
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-64 md:h-96 items-center m-auto relative">
+            <img
+              class="rounded-md w-auto h-full object-fit"
+              src="./assets/images/moi_pro.png"
+              alt="profil"
+            />
+            <canvas
+              id="statsCanvas"
+              class="absolute inset-0 w-full h-full opacity-0"
+            ></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="py-20 relative overflow-hidden px-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-5xl font-bold mb-4 tech-font">
+            <span class="gradient-text" data-i18n="contact-title"
+              >Travaillons</span
+            >
+            <span data-i18n="contact-title-2"> ensemble!</span>
+          </h2>
+          <p
+            class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto"
+            data-i18n="contact-desc"
+          >
+            Une idée, un projet ou simplement une envie d'échanger ?
+            Contactez-moi et construisons ensemble des expériences digitales
+            uniques.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Formulaire -->
+          <div
+            class="holographic rounded-3xl p-6 sm:p-8 md:p-12 relative overflow-hidden"
+          >
+            <form id="contact-form" class="space-y-6 relative z-10">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-gray-300 mb-2"
+                  data-i18n="form-name"
+                  >Votre nom</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full px-4 py-3 sm:px-5 sm:py-3 bg-gray-900 border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="Entrez votre nom"
+                  data-i18n="form-name-placeholder"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-300 mb-2"
+                  data-i18n="form-email"
+                  >Adresse email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full px-4 py-3 sm:px-5 sm:py-3 bg-gray-900 border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="votre@email.com"
+                  data-i18n="form-email-placeholder"
+                />
+              </div>
+              <div>
+                <label
+                  for="project"
+                  class="block text-sm font-medium text-gray-300 mb-2"
+                  data-i18n="form-project"
+                  >Type de projet</label
+                >
+                <select
+                  id="project"
+                  name="project"
+                  class="w-full px-4 py-3 sm:px-5 sm:py-3 bg-gray-900 border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                >
+                  <option data-i18n="form-select">
+                    Selectionner le type de projet
+                  </option>
+                  <option data-i18n="form-web">Design web</option>
+                  <option data-i18n="form-mobile">Design mobile</option>
+                  <option data-i18n="form-refonte">Refonte de site</option>
+                  <option data-i18n="form-both">Design web & mobile</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-300 mb-2"
+                  data-i18n="form-message"
+                  >Détails du projet</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full px-4 py-3 sm:px-5 sm:py-3 bg-gray-900 border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="Parlez-moi de votre projet ou de vos besoins..."
+                  data-i18n="form-message-placeholder"
+                ></textarea>
+              </div>
+
+              <div
+                id="loader"
+                class="hidden text-center text-blue-400 text-sm"
+                data-i18n="status-loading"
+              >
+                ⏳ Envoi en cours...
+              </div>
+              <div
+                id="status-message"
+                class="hidden text-center mt-2 text-sm"
+              ></div>
+
+              <button
+                type="submit"
+                data-i18n="form-submit"
+                class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-medium text-base sm:text-lg transition-all duration-300 transform hover:scale-105"
+              >
+                Envoyer le message
+              </button>
+            </form>
+
+            <div
+              class="absolute -bottom-16 -right-16 w-48 h-48 sm:w-64 sm:h-64 bg-blue-500/10 rounded-full blur-3xl"
+            ></div>
+            <div
+              class="absolute -top-16 -left-16 w-48 h-48 sm:w-64 sm:h-64 bg-purple-500/10 rounded-full blur-3xl"
+            ></div>
+          </div>
+
+          <!-- Infos contact -->
+          <div class="flex flex-col space-y-6">
+            <div
+              class="p-6 bg-black/70 backdrop-filter backdrop-blur-sm rounded-xl border border-gray-700"
+            >
+              <h3
+                class="text-xl font-semibold gradient-text mb-6"
+                data-i18n="contact-info"
+              >
+                Informations de contact
+              </h3>
+              <div class="space-y-6">
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-envelope gradient-text"></i>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h4
+                      class="text-sm font-medium gradient-text"
+                      data-i18n="contact-email"
+                    >
+                      Email
+                    </h4>
+                    <p class="text-gray-300 break-all">imdadadenon@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-phone-alt gradient-text"></i>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h4
+                      class="text-sm font-medium gradient-text"
+                      data-i18n="contact-phone"
+                    >
+                      Téléphone
+                    </h4>
+                    <p class="text-gray-300">
+                      (+229) 01 99 99 70 31<br />(+229) 01 56 78 40 63
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div
+                      class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center"
+                    >
+                      <i class="fas fa-map-marker-alt gradient-text"></i>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h4
+                      class="text-sm font-medium gradient-text"
+                      data-i18n="contact-address"
+                    >
+                      Adresse
+                    </h4>
+                    <p class="text-gray-300" data-i18n="contact-cotonou">
+                      Cotonou, Bénin
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="p-6 bg-black/70 backdrop-filter backdrop-blur-sm rounded-xl border border-gray-700"
+            >
+              <h3
+                class="text-xl font-bold mb-2 gradient-text tech-font"
+                data-i18n="contact-networks"
+              >
+                Mes Réseaux
+              </h3>
+              <p class="text-gray-300 mb-4" data-i18n="contact-networks-desc">
+                En savoir plus sur moi à travers mes réseaux.
+              </p>
+              <div class="flex flex-wrap gap-3 justify-center sm:justify-start">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100086006742732"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 hover:bg-blue-400 rounded-full flex items-center justify-center transition-all duration-300"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/imdad-adenon-304975275"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 hover:bg-purple-400 rounded-full flex items-center justify-center transition-all duration-300"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/imdadadenon"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 hover:bg-pink-400 rounded-full flex items-center justify-center transition-all duration-300"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://wa.me/+22999997031"
+                  target="_blank"
+                  class="w-10 h-10 bg-gray-800 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer
+      class="py-12 border-t border-gray-800 relative overflow-hidden px-4"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 sm:gap-12"
+        >
+          <div>
+            <h4 class="text-xl font-bold gradient-text tech-font mb-4">
+              IMDAD ADENON
+            </h4>
+            <p class="text-gray-400 mb-6" data-i18n="footer-desc">
+              Designer UI/UX passionné par la création d'expériences digitales
+              intuitives et esthétiques sur web et mobile.
+            </p>
+            <div class="flex space-x-5">
+              <a
+                href="https://www.facebook.com/profile.php?id=100086006742732"
+                target="_blank"
+                class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-lg"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/imdad-adenon-304975275"
+                target="_blank"
+                class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-lg"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/imdadadenon"
+                target="_blank"
+                class="text-gray-400 hover:text-pink-400 transition-colors duration-300 text-lg"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://wa.me/+22999997031"
+                target="_blank"
+                class="text-gray-400 hover:text-green-400 transition-colors duration-300 text-lg"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h5
+              class="text-lg font-bold text-white mb-4"
+              data-i18n="footer-skills"
+            >
+              Compétences
+            </h5>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  data-i18n="footer-skill-1"
+                  >Design UI/UX (Figma, Photoshop)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-i18n="footer-skill-2"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Prototypage & responsivité</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  data-i18n="footer-skill-3"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Intégration Web (HTML, CSS, Tailwind, React)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  data-i18n="footer-skill-4"
+                  >Mobile Friendly Design</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h5
+              class="text-lg font-bold text-white mb-4"
+              data-i18n="footer-about"
+            >
+              À propos
+            </h5>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  data-i18n="nav-home"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#rprojet"
+                  data-i18n="nav-recent"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Projets récents</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skiil"
+                  data-i18n="nav-skills"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Compétences</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  data-i18n="nav-about"
+                  >À propos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#projet"
+                  data-i18n="nav-projects"
+                  class="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  >Mes Projets</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-center items-center text-center md:text-left"
+        >
+          <p class="text-gray-500 text-sm" data-i18n="footer-copyright">
+            © 2025 Imdad ADENON. Tous droits réservés.
+          </p>
+        </div>
+      </div>
+
+      <div class="absolute -bottom-20 -right-20 w-32 sm:w-40 h-32 sm:h-40">
+        <canvas id="footerSphereCanvas" class="w-full h-full"></canvas>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // Initialisation EmailJS
+      (function () {
+        emailjs.init("8jEQjKR7gYbo0LqQK");
+      })();
+    </script>
+
+    <!-- Charger les modules dans l'ordre -->
+    <script src="./js/translations.js"></script>
+    <script src="./js/projects-data.js"></script>
+    <script src="./js/three-animations.js"></script>
+    <script src="./js/form-handler.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
