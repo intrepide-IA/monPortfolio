@@ -1,348 +1,149 @@
 {
   "recentProjects": [
     {
-      "id": "ecommerce-react",
-      "name": "Plateforme E-Commerce",
+      "id": "la-boussole-btp-dev",
+      "name": "La Boussole BTP",
       "category": "web-application",
       "categoryColor": "blue",
-      "image": "./assets/images/ecommerce.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/la-boussole-btp.png",
+      "demoLink": "https://laboussolebtp.com/",
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Une plateforme e-commerce complète construite avec React, Redux et TypeScript. Fonctionnalités: panier d'achat, paiement Stripe, authentification JWT, dashboard admin avec analytics en temps réel.",
+          "description": "Site vitrine développé en React JSX pour une entreprise béninoise du BTP. La plateforme présente les services, domaines d’intervention et réalisations de l’entreprise avec une interface moderne et responsive.",
           "categoryLabel": "Application Web",
           "status": "En ligne",
-          "technologies": [
-            "React",
-            "TypeScript",
-            "Redux",
-            "Tailwind CSS",
-            "Node.js",
-            "PostgreSQL",
-            "Stripe"
-          ]
+          "technologies": ["React", "JavaScript", "Tailwind CSS"]
         },
         "en": {
-          "description": "A complete e-commerce platform built with React, Redux and TypeScript. Features: shopping cart, Stripe payment, JWT authentication, admin dashboard with real-time analytics.",
+          "description": "Corporate website developed with React JSX for a Beninese construction company. The platform showcases services, expertise and completed projects through a modern and responsive interface.",
           "categoryLabel": "Web Application",
           "status": "Online",
-          "technologies": [
-            "React",
-            "TypeScript",
-            "Redux",
-            "Tailwind CSS",
-            "Node.js",
-            "PostgreSQL",
-            "Stripe"
-          ]
+          "technologies": ["React", "JavaScript", "Tailwind CSS"]
         }
       }
     },
     {
-      "id": "mobile-app",
-      "name": "Application Mobile React Native",
+      "id": "locagest-pro",
+      "name": "Locagest Pro",
       "category": "mobile-application",
       "categoryColor": "green",
-      "image": "./assets/images/mobile-app.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/locagest-pro.png",
+      "demoLink": null,
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Application mobile native pour iOS et Android. Gestion des tâches, notifications push, synchronisation avec cloud Firebase, interface responsive et performante.",
+          "description": "Application mobile développée en Flutter avec une base de données SQLite locale. Elle permet de gérer les loyers, la consommation d’électricité et les informations des locataires dans une maison standard, sans connexion internet.",
           "categoryLabel": "Application Mobile",
-          "status": "En ligne",
-          "technologies": [
-            "React Native",
-            "Firebase",
-            "TypeScript",
-            "Redux Toolkit",
-            "Jest"
-          ]
+          "status": "En production",
+          "technologies": ["Flutter", "Dart", "SQLite"]
         },
         "en": {
-          "description": "Native mobile app for iOS and Android. Task management, push notifications, Firebase cloud sync, responsive and performant interface.",
+          "description": "Mobile application developed with Flutter using a local SQLite database. It manages rent payments, electricity consumption and tenant records for a standard household, fully offline.",
           "categoryLabel": "Mobile Application",
-          "status": "Online",
-          "technologies": [
-            "React Native",
-            "Firebase",
-            "TypeScript",
-            "Redux Toolkit",
-            "Jest"
-          ]
+          "status": "In production",
+          "technologies": ["Flutter", "Dart", "SQLite"]
         }
       }
     },
     {
-      "id": "saas-dashboard",
-      "name": "Dashboard SaaS Interactif",
-      "category": "dashboard",
+      "id": "wabenin",
+      "name": "WABENIN",
+      "category": "web-platform",
       "categoryColor": "purple",
-      "image": "./assets/images/dashboard.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/wabenin.png",
+      "demoLink": "https://wabenin.vercel.app/",
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Dashboard analytique SaaS avec visualisations de données, graphiques interactifs Chart.js, filtres avancés et export de rapports. Conçu pour la scalabilité et la performance.",
-          "categoryLabel": "Dashboard",
+          "description": "Plateforme web développée avec React JSX et Laravel permettant de découvrir des sites touristiques au Bénin et de participer à des événements culturels. Projet réalisé comme travail de soutenance.",
+          "categoryLabel": "Plateforme Web",
           "status": "En ligne",
-          "technologies": [
-            "Next.js",
-            "React",
-            "Chart.js",
-            "Tailwind CSS",
-            "Supabase",
-            "TypeScript"
-          ]
+          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
         },
         "en": {
-          "description": "SaaS analytics dashboard with data visualizations, interactive Chart.js graphs, advanced filters and report export. Designed for scalability and performance.",
-          "categoryLabel": "Dashboard",
+          "description": "Web platform built with React JSX and Laravel that allows users to explore tourist locations in Benin and participate in cultural events. Developed as a graduation project.",
+          "categoryLabel": "Web Platform",
           "status": "Online",
-          "technologies": [
-            "Next.js",
-            "React",
-            "Chart.js",
-            "Tailwind CSS",
-            "Supabase",
-            "TypeScript"
-          ]
+          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
         }
       }
     }
   ],
+
   "allProjects": [
     {
-      "id": "ecommerce-react",
-      "name": "Plateforme E-Commerce",
+      "id": "la-boussole-btp-dev",
+      "name": "La Boussole BTP",
       "category": "web-application",
       "categoryColor": "blue",
-      "image": "./assets/images/ecommerce.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/la-boussole-btp.png",
+      "demoLink": null,
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Une plateforme e-commerce complète construite avec React, Redux et TypeScript. Fonctionnalités: panier d'achat, paiement Stripe, authentification JWT, dashboard admin avec analytics en temps réel.",
+          "description": "Site vitrine développé en React JSX pour une entreprise béninoise du BTP. La plateforme présente les services, domaines d’intervention et réalisations de l’entreprise avec une interface moderne et responsive.",
           "categoryLabel": "Application Web",
           "status": "En ligne",
-          "technologies": [
-            "React",
-            "TypeScript",
-            "Redux",
-            "Tailwind CSS",
-            "Node.js",
-            "PostgreSQL",
-            "Stripe"
-          ]
+          "technologies": ["React", "JavaScript", "Tailwind CSS"]
         },
         "en": {
-          "description": "A complete e-commerce platform built with React, Redux and TypeScript. Features: shopping cart, Stripe payment, JWT authentication, admin dashboard with real-time analytics.",
+          "description": "Corporate website developed with React JSX for a Beninese construction company. The platform showcases services, expertise and completed projects through a modern and responsive interface.",
           "categoryLabel": "Web Application",
           "status": "Online",
-          "technologies": [
-            "React",
-            "TypeScript",
-            "Redux",
-            "Tailwind CSS",
-            "Node.js",
-            "PostgreSQL",
-            "Stripe"
-          ]
+          "technologies": ["React", "JavaScript", "Tailwind CSS"]
         }
       }
     },
     {
-      "id": "mobile-app",
-      "name": "Application Mobile React Native",
+      "id": "locagest-pro",
+      "name": "Locagest Pro",
       "category": "mobile-application",
       "categoryColor": "green",
-      "image": "./assets/images/mobile-app.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/locagest-pro.png",
+      "demoLink": null,
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Application mobile native pour iOS et Android. Gestion des tâches, notifications push, synchronisation avec cloud Firebase, interface responsive et performante.",
+          "description": "Application mobile développée en Flutter avec une base de données SQLite locale. Elle permet de gérer les loyers, la consommation d’électricité et les informations des locataires dans une maison standard, sans connexion internet.",
           "categoryLabel": "Application Mobile",
-          "status": "En ligne",
-          "technologies": [
-            "React Native",
-            "Firebase",
-            "TypeScript",
-            "Redux Toolkit",
-            "Jest"
-          ]
+          "status": "En production",
+          "technologies": ["Flutter", "Dart", "SQLite"]
         },
         "en": {
-          "description": "Native mobile app for iOS and Android. Task management, push notifications, Firebase cloud sync, responsive and performant interface.",
+          "description": "Mobile application developed with Flutter using a local SQLite database. It manages rent payments, electricity consumption and tenant records for a standard household, fully offline.",
           "categoryLabel": "Mobile Application",
-          "status": "Online",
-          "technologies": [
-            "React Native",
-            "Firebase",
-            "TypeScript",
-            "Redux Toolkit",
-            "Jest"
-          ]
+          "status": "In production",
+          "technologies": ["Flutter", "Dart", "SQLite"]
         }
       }
     },
     {
-      "id": "saas-dashboard",
-      "name": "Dashboard SaaS Interactif",
-      "category": "dashboard",
+      "id": "wabenin",
+      "name": "WABENIN",
+      "category": "web-platform",
       "categoryColor": "purple",
-      "image": "./assets/images/dashboard.png",
-      "demoLink": "#",
-      "githubLink": "#",
+      "image": "./assets/images/wabenin.png",
+      "demoLink": null,
+      "githubLink": null,
       "status": "completed",
       "translations": {
         "fr": {
-          "description": "Dashboard analytique SaaS avec visualisations de données, graphiques interactifs Chart.js, filtres avancés et export de rapports. Conçu pour la scalabilité et la performance.",
-          "categoryLabel": "Dashboard",
+          "description": "Plateforme web développée avec React JSX et Laravel permettant de découvrir des sites touristiques au Bénin et de participer à des événements culturels. Projet réalisé comme travail de soutenance.",
+          "categoryLabel": "Plateforme Web",
           "status": "En ligne",
-          "technologies": [
-            "Next.js",
-            "React",
-            "Chart.js",
-            "Tailwind CSS",
-            "Supabase",
-            "TypeScript"
-          ]
+          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
         },
         "en": {
-          "description": "SaaS analytics dashboard with data visualizations, interactive Chart.js graphs, advanced filters and report export. Designed for scalability and performance.",
-          "categoryLabel": "Dashboard",
+          "description": "Web platform built with React JSX and Laravel that allows users to explore tourist locations in Benin and participate in cultural events. Developed as a graduation project.",
+          "categoryLabel": "Web Platform",
           "status": "Online",
-          "technologies": [
-            "Next.js",
-            "React",
-            "Chart.js",
-            "Tailwind CSS",
-            "Supabase",
-            "TypeScript"
-          ]
-        }
-      }
-    },
-    {
-      "id": "api-rest",
-      "name": "API REST Scalable",
-      "category": "backend",
-      "categoryColor": "cyan",
-      "image": "./assets/images/api.png",
-      "demoLink": "#",
-      "githubLink": "#",
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "API REST complète avec Node.js/Express, authentification OAuth2, rate limiting, documentation Swagger, tests unitaires Jest et intégration CI/CD.",
-          "categoryLabel": "Backend",
-          "status": "En ligne",
-          "technologies": [
-            "Node.js",
-            "Express",
-            "PostgreSQL",
-            "JWT",
-            "Docker",
-            "Jest",
-            "Swagger"
-          ]
-        },
-        "en": {
-          "description": "Complete REST API with Node.js/Express, OAuth2 authentication, rate limiting, Swagger documentation, Jest unit tests and CI/CD integration.",
-          "categoryLabel": "Backend",
-          "status": "Online",
-          "technologies": [
-            "Node.js",
-            "Express",
-            "PostgreSQL",
-            "JWT",
-            "Docker",
-            "Jest",
-            "Swagger"
-          ]
-        }
-      }
-    },
-    {
-      "id": "web-scraper",
-      "name": "Web Scraper Automatisé",
-      "category": "utility",
-      "categoryColor": "green",
-      "image": "./assets/images/scraper.png",
-      "demoLink": "#",
-      "githubLink": "#",
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "Outil de web scraping avec Puppeteer et Node.js. Extraction de données structurées, stockage en base de données, planification avec Cron, notifications email automatiques.",
-          "categoryLabel": "Utilitaire",
-          "status": "En ligne",
-          "technologies": [
-            "Node.js",
-            "Puppeteer",
-            "Cheerio",
-            "MongoDB",
-            "Cron",
-            "Nodemailer"
-          ]
-        },
-        "en": {
-          "description": "Web scraping tool with Puppeteer and Node.js. Structured data extraction, database storage, Cron scheduling, automated email notifications.",
-          "categoryLabel": "Utility",
-          "status": "Online",
-          "technologies": [
-            "Node.js",
-            "Puppeteer",
-            "Cheerio",
-            "MongoDB",
-            "Cron",
-            "Nodemailer"
-          ]
-        }
-      }
-    },
-    {
-      "id": "pwa",
-      "name": "Progressive Web App",
-      "category": "pwa",
-      "categoryColor": "blue",
-      "image": "./assets/images/pwa.png",
-      "demoLink": "#",
-      "githubLink": "#",
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "Application web progressive avec service workers, offline-first architecture, synchronisation en arrière-plan et installation comme application native.",
-          "categoryLabel": "Progressive Web App",
-          "status": "En ligne",
-          "technologies": [
-            "React",
-            "Service Workers",
-            "Workbox",
-            "IndexedDB",
-            "Tailwind CSS",
-            "Next.js"
-          ]
-        },
-        "en": {
-          "description": "Progressive web app with service workers, offline-first architecture, background sync and installation as native app.",
-          "categoryLabel": "Progressive Web App",
-          "status": "Online",
-          "technologies": [
-            "React",
-            "Service Workers",
-            "Workbox",
-            "IndexedDB",
-            "Tailwind CSS",
-            "Next.js"
-          ]
+          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
         }
       }
     }

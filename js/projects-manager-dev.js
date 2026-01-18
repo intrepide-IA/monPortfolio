@@ -165,4 +165,4 @@ class ProjectsManager {
 }
 
 // Instantier le gestionnaire de projets
-const projectsManager = new ProjectsManager("./data/projects.json");
+const projectsManager = new ProjectsManager("./data/projects-dev.json");

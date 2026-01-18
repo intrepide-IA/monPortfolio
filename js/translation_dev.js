@@ -29,22 +29,22 @@ const translations = {
     "exp-2":
       "Diplômé en Système Informatique & logiciel à l'UATM Gasa-Formation du Bénin.",
     "exp-3":
-      "Plus de 25 projets frontend développés pour des clients et entreprises.",
+      "Plus de 5 projets frontend développés pour des clients et entreprises.",
     "journey-title": "Mon Parcours",
     "job-1": "Lead Développeur Frontend web et mobile",
     "job-1-company": "Niyi expertise",
     "job-1-date": "Juillet 2025 - Présent",
     "job-1-desc":
-      "Responsable du développement frontend, de l'architecture technique et de l'optimisation des performances sur web et mobile. Direction technique de projets, mise en œuvre des meilleures pratiques, et collaboration étroite avec les équipes backend et design pour livrer des applications exceptionnelles.",
+      "Responsable de la conception, de la direction créative et de l'optimisation des expériences utilisateurs sur web et mobile. Supervision du processus de design, de la recherche utilisateur jusqu'aux prototypes interactifs, en collaboration avec les équipes de développement.",
     "job-2": "Stagiaire Développeur Frontend web et mobile",
     "job-2-date": "Avril 2025 - Juin 2025",
     "job-2-desc":
-      "Développement de composants React réutilisables et intégration de designs en code. Contribution à la création d'applications performantes en respectant les standards web et les bonnes pratiques frontend.",
+      "Participation à la création d'interfaces intuitives et esthétiques. Contribution aux maquettes, wireframes et prototypes interactifs en respectant les guidelines de l'entreprise et les bonnes pratiques UX.",
     "job-3": "Stagiaire Développeur Frontend web et mobile",
     "job-3-company": "La pieuvre technologie",
     "job-3-date": "Juillet 2024 - Octobre 2024",
     "job-3-desc":
-      "Développement et optimisation des interfaces web et mobile pour fournir des expériences modernes et performantes. Collaboration avec les équipes produit et backend pour transformer les besoins en solutions frontend scalables et maintenables.",
+      "Conception et amélioration des interfaces utilisateur pour offrir des expériences digitales modernes et ergonomiques. Collaboration étroite avec les équipes produit et développement pour transformer les besoins en solutions concrètes et fonctionnelles.",
     "projects-title": "Mes projets",
     "projects-desc":
       "Un aperçu de mes réalisations en développement frontend, alliant performance, qualité de code et expérience utilisateur exceptionnelle.",
@@ -61,7 +61,7 @@ const translations = {
       "Spécialisation en technologies modernes web et mobile",
     "exp-frontend": "Expert",
     "exp-frontend-desc":
-      "Expertise en React, TypeScript, Tailwind CSS & Next.js",
+      "Expertise en React, TypeScript, Tailwind CSS & Flutter",
     "exp-rating": "4.9/5",
     "exp-rating-desc": "Satisfaction moyenne de mes projets et collaborations",
     "contact-title": "Travaillons",
@@ -93,7 +93,7 @@ const translations = {
     "footer-desc":
       "Développeur Frontend passionné par la création d'applications web et mobile performantes, scalables et innovantes.",
     "footer-skills": "Compétences",
-    "footer-skill-1": "React, TypeScript & Next.js",
+    "footer-skill-1": "React, TypeScript & Flutter",
     "footer-skill-2": "Tailwind CSS & responsive design",
     "footer-skill-3": "Développement web (HTML5, CSS3, JavaScript)",
     "footer-skill-4": "Développement mobile (React Native, Flutter)",
@@ -160,7 +160,7 @@ const translations = {
       "Specialization in modern web and mobile technologies",
     "exp-frontend": "Expert",
     "exp-frontend-desc":
-      "Expertise in React, TypeScript, Tailwind CSS & Next.js",
+      "Expertise in React, TypeScript, Tailwind CSS & Flutter",
     "exp-rating": "4.9/5",
     "exp-rating-desc": "Average satisfaction of my projects and collaborations",
     "contact-title": "Let's Work",
@@ -191,7 +191,7 @@ const translations = {
     "footer-desc":
       "Frontend Developer passionate about creating performant, scalable and innovative web and mobile applications.",
     "footer-skills": "Skills",
-    "footer-skill-1": "React, TypeScript & Next.js",
+    "footer-skill-1": "React, TypeScript & Flutter",
     "footer-skill-2": "Tailwind CSS & responsive design",
     "footer-skill-3": "Web Development (HTML5, CSS3, JavaScript)",
     "footer-skill-4": "Mobile Development (React Native, Flutter)",

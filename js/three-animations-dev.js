@@ -244,7 +244,7 @@ function initThreeAnimations() {
     // Barres représentant les compétences tech
     const barHeights = [2.2, 2.5, 2.8, 2.1, 2.4];
     const barColors = [0x3b82f6, 0x8b5cf6, 0x06b6d4, 0x3b82f6, 0x8b5cf6];
-    const barLabels = ["React", "TypeScript", "Next.js", "Tailwind", "Mobile"];
+    const barLabels = ["React", "TypeScript", "Flutter", "Tailwind", "Mobile"];
 
     for (let i = 0; i < barHeights.length; i++) {
       const barGeometry = new THREE.BoxGeometry(0.35, barHeights[i], 0.35);
@@ -377,7 +377,7 @@ function initThreeAnimations() {
     // Animate performance bars avec pulsation
     if (statsGroup) {
       statsGroup.rotation.y += 0.003;
-      
+
       // Animer les barres avec une pulsation
       statsBars.forEach((bar, index) => {
         const time = Date.now() * 0.001;
@@ -386,7 +386,7 @@ function initThreeAnimations() {
         bar.scale.y = pulsation;
         bar.position.y = (bar.originalHeight / 2) * pulsation;
       });
-      
+
       statsRenderer.render(statsScene, statsCamera);
     }
 
@@ -395,11 +395,11 @@ function initThreeAnimations() {
       footerSphere.rotation.x += 0.008;
       footerSphere.rotation.y += 0.016;
       footerSphere.rotation.z += 0.006;
-      
+
       // Ajouter une pulsation
       const footerPulse = 1 + Math.sin(Date.now() * 0.0015) * 0.1;
       footerSphere.scale.set(footerPulse, footerPulse, footerPulse);
-      
+
       footerSphereRenderer.render(footerSphereScene, footerSphereCamera);
     }
   }

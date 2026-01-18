@@ -1,6 +1,140 @@
 {
   "recentProjects": [
     {
+      "id": "la-boussole-btp",
+      "name": "LA BOUSSOLE BTP",
+      "category": "corporate-website",
+      "categoryColor": "blue",
+      "image": "./assets/images/la-boussole-btp.png",
+      "figmaLink": "https://www.figma.com/proto/9m6ZsDtTXJt2VuTFWN0zBn/Urgence-1j?page-id=267%3A821&node-id=268-822&viewport=438%2C66%2C0.26&t=4MQzHrcdWNou3iEl-1&scaling=min-zoom&content-scaling=fixed",
+      "websiteLink": "https://laboussolebtp.com",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "La Boussole BTP est un site vitrine conçu pour présenter les services, réalisations et domaines d’intervention d’une entreprise béninoise spécialisée dans le BTP.",
+          "categoryLabel": "Site vitrine",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "La Boussole BTP is a corporate website designed to showcase the services, projects and expertise of a Beninese construction and public works company.",
+          "categoryLabel": "Corporate website",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "akili",
+      "name": "AKILI",
+      "category": "mobile-learning",
+      "categoryColor": "purple",
+      "image": "./assets/images/akili.png",
+      "figmaLink": "https://www.figma.com/proto/miqB4sgCN0pzci6Y65kRsm/AKILI?page-id=0%3A1&node-id=2-1321&p=f&viewport=1255%2C340%2C0.26&t=ZzKCAaaB2LlAj51C-1&scaling=min-zoom&content-scaling=fixed",
+      "websiteLink": "https://akili.cc/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Akili est une landing page conçue pour promouvoir une application mobile éducative canadienne basée sur l’apprentissage ludique via un système d’abonnement donnant accès à une licence.",
+          "categoryLabel": "Application éducative",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Akili is a landing page promoting a Canadian educational mobile application focused on game-based learning through a subscription-based licensing model.",
+          "categoryLabel": "Educational application",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "supriz",
+      "name": "SUPRIZ",
+      "category": "event-platform",
+      "categoryColor": "pink",
+      "image": "./assets/images/supriz.png",
+      "figmaLink": "https://www.figma.com/proto/101tXnRL1j8ug7vqxYkC7q/message-supriz?page-id=4%3A21&node-id=12341-5042&p=f&viewport=1058%2C863%2C0.04&t=Yv6ASbpOZXW2i8Sg-1&scaling=min-zoom&content-scaling=fixed",
+      "websiteLink": "https://suprizs.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Supriz est une plateforme dédiée à la création de surprises personnalisées pour des événements comme les anniversaires, mariages ou célébrations, afin de rendre chaque moment inoubliable.",
+          "categoryLabel": "Plateforme événementielle",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Supriz is a platform designed to create personalized surprises for events such as birthdays, weddings, and celebrations, making every moment truly memorable.",
+          "categoryLabel": "Event platform",
+          "status": "online"
+        }
+      }
+    }
+  ],
+  "allProjects": [
+    {
+      "id": "as-green",
+      "name": "AS GREEN",
+      "category": "e-commerce",
+      "categoryColor": "green",
+      "image": "./assets/images/as-green.png",
+      "figmaLink": "https://www.figma.com/proto/zj7M8JqqcCRSRkQOWaIzR3/Refont-AS-green?page-id=445%3A567&node-id=445-568&p=f&viewport=218%2C64%2C0.04&t=1hiXLG3ilDSj87h6-1&scaling=min-zoom&content-scaling=fixed",
+      "websiteLink": "https://asgreens.com/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "AS Green est une plateforme conçue pour promouvoir des jus naturels d’ananas produits par une entreprise béninoise à portée internationale, avec possibilité de commande directe en ligne.",
+          "categoryLabel": "E-commerce agroalimentaire",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "AS Green is a platform designed to promote natural pineapple juices produced by an internationally oriented Beninese company, with direct online ordering.",
+          "categoryLabel": "Agri-food e-commerce",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "petsecureid",
+      "name": "PETSECURE ID",
+      "category": "community-platform",
+      "categoryColor": "purple",
+      "image": "./assets/images/petsecureid.png",
+      "figmaLink": "https://www.figma.com/proto/MZCviizAtxbsjEreSozsYW/Pet-Secure-ID?page-id=351%3A1906&node-id=646-2962&viewport=3703%2C-621%2C0.15&t=Ed3S1xyPLYfNICgW-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": "https://petsecureid.com/pet_secure_id/acceuil",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "PetSecure ID est une plateforme communautaire permettant l’identification des animaux domestiques via des médailles scannables et facilitant leur retrouvaille grâce à une communauté locale connectée.",
+          "categoryLabel": "Plateforme communautaire",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "PetSecure ID is a community platform that enables pet identification through scannable tags and helps reunite lost animals using a connected local community.",
+          "categoryLabel": "Community platform",
+          "status": "online"
+        }
+      }
+    },
+    {
+      "id": "ivsd",
+      "name": "IVSD",
+      "category": "civic-tech",
+      "categoryColor": "blue",
+      "image": "./assets/images/ivsd.png",
+      "figmaLink": "https://www.figma.com/proto/bcDg91HelY6a7xqtoTtuHj/Projet-%C3%A9lectoral-IVSD?page-id=23%3A234&node-id=55-234&p=f&viewport=1329%2C1051%2C0.06&t=laBuiAv98kw5hMb7-1&scaling=scale-down&content-scaling=fixed",
+      "websiteLink": null,
+      "status": "private",
+      "translations": {
+        "fr": {
+          "description": "IVSD est une plateforme Civic Tech conçue pour renforcer la transparence des élections présidentielles au Cameroun en analysant les résultats par bureau et centre de vote.",
+          "categoryLabel": "Civic Tech",
+          "status": "solution privée"
+        },
+        "en": {
+          "description": "IVSD is a Civic Tech platform designed to enhance transparency in presidential elections in Cameroon by analyzing results at polling station and voting center levels.",
+          "categoryLabel": "Civic Tech",
+          "status": "private solution"
+        }
+      }
+    },
+    {
       "id": "kilofree",
       "name": "KILOFREE",
       "category": "mobile-application",
@@ -65,10 +199,7 @@
           "status": "in development"
         }
       }
-    }
-  ],
-  "allProjects": [
-    
+    },
     {
       "id": "sinistres-re",
       "name": "SINISTRES-RE",
