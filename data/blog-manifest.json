@@ -5,25 +5,25 @@
       "title": "Bienvenue sur le blog design & UX",
       "date": "2026-04-03",
       "excerpt": "Comment ce blog complète le portfolio : articles UI/UX, product design et retours d’expérience au Bénin.",
-      "coverImage": "/assets/images/preview.png",
+      "coverImage": "https://img.freepik.com/premium-vector/vector-web-site-design-template-social-media-content-team-build-application-wireframe-widgets-landing-page-concepts-website-mobile-development-modern-flat-illustration_88813-4149.jpg?w=1480",
       "lang": "fr",
       "published": true
     },
     {
       "slug": "mon-titre",
-      "title": "Mon titre",
+      "title": "Le design de produits digitaux au Bénin",
       "date": "2026-04-03",
       "excerpt": "Design UI/UX et product design : Mon titre",
-      "coverImage": "/assets/images/preview.png",
+      "coverImage": "https://img.freepik.com/free-photo/jolly-tech-savvy-woman-engaging-with-multimedia-dashboards-displays-showcasing-power-technology_482257-136403.jpg?t=st=1775252150~exp=1775255750~hmac=da3f278215f3769648da51e0e2ed0ef54941e96208277e3c7eca06d6ff1757e6&w=1480",
       "lang": "fr",
-      "published": false
+      "published": true
     },
     {
       "slug": "mon-titre-d-article-seo",
       "title": "Concevoir un produit digital efficace en UI/UX : guide pour startups et PME",
       "date": "2026-04-03",
       "excerpt": "Le design de produits digitaux au Bénin et en Afrique de l’Ouest prend une place croissante : startups, PME et institutions cherchent des interfaces claires, accessibles et crédibles. Cet article pose les bases d’une…",
-      "coverImage": "/assets/images/preview.png",
+      "coverImage": "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104491.jpg?t=st=1775252274~exp=1775255874~hmac=d75d70999980ac6034d58533a68500542c25cff05eb2984112cfa34e329c7762&w=1480",
       "lang": "fr",
       "published": true
     }

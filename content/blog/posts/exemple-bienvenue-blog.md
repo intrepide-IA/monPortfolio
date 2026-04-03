@@ -3,7 +3,7 @@ title: "Bienvenue sur le blog design & UX"
 slug: exemple-bienvenue-blog
 date: "2026-04-03"
 excerpt: "Comment ce blog complète le portfolio : articles UI/UX, product design et retours d’expérience au Bénin."
-coverImage: "/assets/images/preview.png"
+coverImage: "https://img.freepik.com/premium-vector/vector-web-site-design-template-social-media-content-team-build-application-wireframe-widgets-landing-page-concepts-website-mobile-development-modern-flat-illustration_88813-4149.jpg?w=1480"
 lang: "fr"
 published: true
 ---

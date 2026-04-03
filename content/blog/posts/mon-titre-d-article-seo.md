@@ -3,7 +3,7 @@ title: "Concevoir un produit digital efficace en UI/UX : guide pour startups et 
 slug: concevoir-produit-digital-ui-ux-benin
 date: "2026-04-03"
 excerpt: "Au Bénin et en Afrique de l’Ouest, la demande en produits digitaux performants explose. Startups, PME et institutions recherchent des interfaces simples, fiables et orientées utilisateur. Voici les bases d’une approche UI/UX efficace."
-coverImage: "/assets/images/preview.png"
+coverImage: "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104491.jpg?t=st=1775252274~exp=1775255874~hmac=d75d70999980ac6034d58533a68500542c25cff05eb2984112cfa34e329c7762&w=1480"
 lang: "fr"
 published: false
 ---
@@ -71,5 +71,3 @@ Que vous développiez un **SaaS**, une application **mobile** ou une solution **
 👉 Pour concevoir ou améliorer votre produit digital, vous pouvez [me contacter directement via mon portfolio](/#contact).
 
 ---
-
-*Brouillon généré automatiquement — pensez à relire, personnaliser les exemples et adapter le ton avant publication (`published: true`).*
