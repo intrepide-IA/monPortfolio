@@ -2,13 +2,13 @@
   "_readme": "Édition sans HTML. Études de cas : voir data/projects.json → caseStudy par projet. Témoignages : rating 1-5. calendlyUrl vide = bouton masqué.",
   "seo": {
     "canonical": "https://imdadadenon.vercel.app/",
-    "extraKeywords": "Imdad ADENON, designer UI/UX Bénin, designer Cotonou, freelance Figma Bénin, product design Afrique de l'Ouest"
+    "extraKeywords": "Imdad ADENON, Imdad Adenon, designer UI UX Bénin, designer UI/UX Bénin, product designer Cotonou, portfolio Imdad ADENON, site officiel, freelance Figma, design SaaS, design mobile, fintech UX, Cotonou, Afrique de l'Ouest"
   },
   "hero": {
     "fr": {
       "badge": "UI/UX & PRODUCT DESIGN",
       "nameLine": "IMDAD ADENON",
-      "role": "Designer UI/UX — web, mobile & produits digitaux",
+      "role": "Designer UI/UX — web, mobile, SaaS & fintech",
       "tagline": "Je conçois des expériences simples et efficaces pour aider les entreprises à mieux performer, au Bénin et à l’international.",
       "ctaProjects": "Voir mes projets",
       "ctaDiscuss": "Discutons de votre projet",
@@ -19,7 +19,7 @@
     "en": {
       "badge": "UI/UX & PRODUCT DESIGN",
       "nameLine": "IMDAD ADENON",
-      "role": "UI/UX Designer — web, mobile & digital products",
+      "role": "UI/UX Designer — web, mobile, SaaS & fintech",
       "tagline": "I craft simple, effective experiences that help businesses perform better—in Benin and worldwide.",
       "ctaProjects": "View my work",
       "ctaDiscuss": "Let’s talk about your project",

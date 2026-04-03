@@ -147,7 +147,7 @@ class ProjectsManager {
         <p class="text-gray-300 mt-6 mb-6">${trans.description}</p>
         ${impactBlock}
         <div class="relative h-40 mt-6 rounded-xl overflow-hidden group">
-          <img class="w-full h-full object-cover transition duration-500 group-hover:scale-[1.02]" src="${project.image}" alt="${escapeHtml(project.name)}">
+          <img class="w-full h-full object-cover transition duration-500 group-hover:scale-[1.02]" src="${project.image}" alt="${escapeHtml(project.name)} — aperçu projet UI/UX" loading="lazy" decoding="async">
           ${csDesktop}
         </div>
         ${csMobile}
@@ -215,7 +215,7 @@ class ProjectsManager {
     return `
       <div class="feature-panel holographic rounded-2xl overflow-hidden transition-all duration-700 hover:transform hover:scale-105">
         <div class="relative h-64 group">
-          <img class="w-full h-full object-cover transition duration-500 group-hover:scale-[1.02]" src="${project.image}" alt="${escapeHtml(project.name)}">
+          <img class="w-full h-full object-cover transition duration-500 group-hover:scale-[1.02]" src="${project.image}" alt="${escapeHtml(project.name)} — aperçu projet UI/UX" loading="lazy" decoding="async">
           <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent pointer-events-none"></div>
           <div class="absolute bottom-0 left-0 p-6 pointer-events-none">
             <h3 class="text-2xl font-bold mb-1">${project.name}</h3>

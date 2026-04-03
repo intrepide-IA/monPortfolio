@@ -22,6 +22,22 @@
           "status": "Online",
           "technologies": ["React", "JavaScript", "Tailwind CSS"]
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Site vitrine React pour une PME du BTP au Bénin.",
+          "problem": "Structurer beaucoup de contenus (services, réalisations) sans alourdir la navigation.",
+          "solution": "Composants réutilisables, sections modulaires, performance (lazy images, découpage du code).",
+          "design": "React, Tailwind CSS, mise en page responsive mobile-first.",
+          "results": "Temps de chargement maîtrisé et parcours utilisateur plus clair pour les prospects."
+        },
+        "en": {
+          "context": "React showcase site for a Beninese construction SME.",
+          "problem": "Structure rich content (services, projects) without heavy navigation.",
+          "solution": "Reusable components, modular sections, performance (lazy images, code splitting).",
+          "design": "React, Tailwind CSS, mobile-first responsive layout.",
+          "results": "Controlled load times and a clearer journey for prospects."
+        }
       }
     },
     {
@@ -46,6 +62,22 @@
           "status": "In production",
           "technologies": ["Flutter", "Dart", "SQLite"]
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "App Flutter hors-ligne pour gestion locative et énergie dans une maison.",
+          "problem": "Fiabilité des données sans réseau, saisies simples pour un usage quotidien.",
+          "solution": "SQLite local, écrans par cas d’usage (loyer, électricité, fiches locataires), validations.",
+          "design": "Flutter, state management adapté, modèle de données normalisé.",
+          "results": "Usage terrain sans dépendance réseau ; base de données cohérente sur le long terme."
+        },
+        "en": {
+          "context": "Offline Flutter app for rent and energy management in a household.",
+          "problem": "Data reliability offline and simple daily inputs.",
+          "solution": "Local SQLite, screens per use case (rent, power, tenant records), validation.",
+          "design": "Flutter, appropriate state management, normalized data model.",
+          "results": "Field use without network dependency; consistent long-term database."
+        }
       }
     },
     {
@@ -69,6 +101,22 @@
           "categoryLabel": "Web Platform",
           "status": "Online",
           "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme full-stack (React + API Laravel) pour le tourisme et les événements au Bénin.",
+          "problem": "Séparer clairement front SPA et back API, gérer auth et données métier.",
+          "solution": "API REST Laravel, front React consommant les endpoints, schéma MySQL relationnel.",
+          "design": "Architecture en couches, formulaires et listes optimisés pour la lecture.",
+          "results": "Projet de soutenance livré avec parcours découverte / événements fonctionnel."
+        },
+        "en": {
+          "context": "Full-stack platform (React + Laravel API) for tourism and events in Benin.",
+          "problem": "Clear separation of SPA front and API back, auth and domain data.",
+          "solution": "Laravel REST API, React front consuming endpoints, relational MySQL schema.",
+          "design": "Layered architecture, forms and lists optimized for readability.",
+          "results": "Graduation project delivered with working discovery / event flows."
         }
       }
     }
@@ -97,6 +145,22 @@
           "status": "Online",
           "technologies": ["React", "JavaScript", "Tailwind CSS"]
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Site vitrine React pour une PME du BTP au Bénin.",
+          "problem": "Structurer beaucoup de contenus (services, réalisations) sans alourdir la navigation.",
+          "solution": "Composants réutilisables, sections modulaires, performance (lazy images, découpage du code).",
+          "design": "React, Tailwind CSS, mise en page responsive mobile-first.",
+          "results": "Temps de chargement maîtrisé et parcours utilisateur plus clair pour les prospects."
+        },
+        "en": {
+          "context": "React showcase site for a Beninese construction SME.",
+          "problem": "Structure rich content (services, projects) without heavy navigation.",
+          "solution": "Reusable components, modular sections, performance (lazy images, code splitting).",
+          "design": "React, Tailwind CSS, mobile-first responsive layout.",
+          "results": "Controlled load times and a clearer journey for prospects."
+        }
       }
     },
     {
@@ -121,6 +185,22 @@
           "status": "In production",
           "technologies": ["Flutter", "Dart", "SQLite"]
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "App Flutter hors-ligne pour gestion locative et énergie dans une maison.",
+          "problem": "Fiabilité des données sans réseau, saisies simples pour un usage quotidien.",
+          "solution": "SQLite local, écrans par cas d’usage (loyer, électricité, fiches locataires), validations.",
+          "design": "Flutter, state management adapté, modèle de données normalisé.",
+          "results": "Usage terrain sans dépendance réseau ; base de données cohérente sur le long terme."
+        },
+        "en": {
+          "context": "Offline Flutter app for rent and energy management in a household.",
+          "problem": "Data reliability offline and simple daily inputs.",
+          "solution": "Local SQLite, screens per use case (rent, power, tenant records), validation.",
+          "design": "Flutter, appropriate state management, normalized data model.",
+          "results": "Field use without network dependency; consistent long-term database."
+        }
       }
     },
     {
@@ -144,6 +224,22 @@
           "categoryLabel": "Web Platform",
           "status": "Online",
           "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme full-stack (React + API Laravel) pour le tourisme et les événements au Bénin.",
+          "problem": "Séparer clairement front SPA et back API, gérer auth et données métier.",
+          "solution": "API REST Laravel, front React consommant les endpoints, schéma MySQL relationnel.",
+          "design": "Architecture en couches, formulaires et listes optimisés pour la lecture.",
+          "results": "Projet de soutenance livré avec parcours découverte / événements fonctionnel."
+        },
+        "en": {
+          "context": "Full-stack platform (React + Laravel API) for tourism and events in Benin.",
+          "problem": "Clear separation of SPA front and API back, auth and domain data.",
+          "solution": "Laravel REST API, React front consuming endpoints, relational MySQL schema.",
+          "design": "Layered architecture, forms and lists optimized for readability.",
+          "results": "Graduation project delivered with working discovery / event flows."
         }
       }
     }

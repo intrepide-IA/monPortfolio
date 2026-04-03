@@ -3,38 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://imdadadenon.vercel.app/developer" />
+    <link rel="alternate" hreflang="fr" href="https://imdadadenon.vercel.app/developer" />
+    <link rel="alternate" hreflang="en" href="https://imdadadenon.vercel.app/developer" />
+    <link rel="alternate" hreflang="x-default" href="https://imdadadenon.vercel.app/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
     <link rel="apple-touch-icon" href="./assets/images/favicon.png" />
 
-    <!-- Title -->
-    <title>Imdad ADENON | Développeur Frontend Web et Mobile</title>
+    <!-- Title : même nom fort que la home pour la marque personnelle -->
+    <title>Imdad ADENON — Portfolio développeur | Frontend web & mobile (Cotonou)</title>
 
     <!-- Meta Tags de base -->
-    <meta name="title" content="Imdad ADENON – Développeur Frontend" />
+    <meta
+      name="title"
+      content="Imdad ADENON — Portfolio développeur | Frontend web & mobile"
+    />
     <meta
       name="description"
-      content="Développeur Frontend spécialisé en web & mobile, créant des applications modernes, performantes et réactives. Portfolio de projets innovants."
+      content="Imdad ADENON — portfolio développeur officiel. Frontend web & mobile : React, Flutter, Laravel. Projets, études de cas & contact — Cotonou, Bénin."
     />
     <meta
       name="keywords"
-      content="Développeur Frontend, React, TypeScript, Tailwind CSS, Web, Mobile, Portfolio, Bénin, Cotonou"
+      content="Imdad ADENON, Imdad Adenon, portfolio développeur Imdad ADENON, développeur Frontend Bénin, React, Flutter, Laravel, JavaScript, portfolio Cotonou, développeur web Bénin"
     />
     <meta name="author" content="Imdad ADENON" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://imdadadenon.vercel.app/" />
-    <meta property="og:site_name" content="Imdad ADENON Portfolio" />
+    <meta property="og:url" content="https://imdadadenon.vercel.app/developer" />
+    <meta property="og:site_name" content="Imdad ADENON — Portfolio" />
     <meta
       property="og:title"
-      content="Imdad ADENON – Développeur Frontend Web & Mobile"
+      content="Imdad ADENON — Portfolio développeur | Frontend web & mobile"
     />
     <meta
       property="og:description"
-      content="Développeur Frontend spécialisé en web & mobile | Création d'applications performantes et modernes | Portfolio de +20 projets | Bénin 🇧🇯"
+      content="Imdad ADENON — portfolio développeur. Web & mobile : React, Flutter, Laravel. Projets & études de cas — Cotonou, Bénin."
     />
     <meta
       property="og:image"
@@ -56,16 +63,16 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://imdadadenon.vercel.app/" />
+    <meta name="twitter:url" content="https://imdadadenon.vercel.app/developer" />
     <meta name="twitter:site" content="@imdadadenon" />
     <meta name="twitter:creator" content="@imdadadenon" />
     <meta
       name="twitter:title"
-      content="Imdad ADENON – Développeur Frontend Web & Mobile"
+      content="Imdad ADENON — Portfolio développeur | Frontend"
     />
     <meta
       name="twitter:description"
-      content="Développeur Frontend spécialisé en web & mobile | Création d'applications performantes et modernes | Portfolio de +20 projets | Bénin 🇧🇯"
+      content="Portfolio développeur d’Imdad ADENON — web & mobile, React, Flutter. Cotonou, Bénin."
     />
     <meta
       name="twitter:image"
@@ -76,34 +83,24 @@
       content="Imdad ADENON - Portfolio Développeur Frontend"
     />
 
-    <!-- WhatsApp spécifique (utilise Open Graph) -->
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="200" />
-
     <!-- Telegram (utilise Open Graph) -->
     <meta property="telegram:channel" content="@imdadadenon" />
 
+    <!-- WebPage seule : Person/WebSite définis sur l’accueil (#person, #website) pour éviter les doublons -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Imdad ADENON",
-        "jobTitle": "Développeur Frontend",
-        "description": "Développeur Frontend spécialisé en web & mobile, créant des applications modernes, performantes et réactives.",
-        "url": "https://imdadadenon.vercel.app/",
-        "image": "https://imdadadenon.vercel.app/assets/images/preview.png",
-        "sameAs": [
-          "https://www.linkedin.com/in/imdad-adenon-304975275",
-          "https://www.instagram.com/imdadadenon",
-          "https://www.facebook.com/profile.php?id=100086006742732"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Cotonou",
-          "addressCountry": "BJ"
-        },
-        "email": "imdadadenon@gmail.com",
-        "telephone": "+22999997031"
+        "@type": "WebPage",
+        "@id": "https://imdadadenon.vercel.app/developer#webpage",
+        "url": "https://imdadadenon.vercel.app/developer",
+        "name": "Imdad ADENON — Portfolio développeur frontend",
+        "description": "Portfolio développeur d’Imdad ADENON : React, Flutter, Laravel, applications web et mobile — Cotonou, Bénin.",
+        "isPartOf": { "@id": "https://imdadadenon.vercel.app/#website" },
+        "about": { "@id": "https://imdadadenon.vercel.app/#person" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://imdadadenon.vercel.app/assets/images/preview.png"
+        }
       }
     </script>
 
@@ -1211,6 +1208,26 @@
         <canvas id="footerSphereCanvas" class="w-full h-full"></canvas>
       </div>
     </footer>
+
+    <!-- Étude de cas (data/projects-dev.json → caseStudy) -->
+    <dialog id="case-study-modal" class="case-study-dialog">
+      <div
+        class="case-study-dialog__inner holographic border border-gray-700/60 rounded-2xl p-6 sm:p-8 max-w-2xl w-[calc(100vw-2rem)] shadow-2xl relative"
+      >
+        <button
+          type="button"
+          id="case-study-modal-close"
+          class="case-study-dialog__close absolute top-3 right-3 w-10 h-10 rounded-full bg-gray-800/80 hover:bg-gray-700 text-gray-300 text-xl leading-none flex items-center justify-center z-10"
+          aria-label="Fermer"
+        >
+          &times;
+        </button>
+        <div
+          id="case-study-modal-body"
+          class="case-study-dialog__body text-left"
+        ></div>
+      </div>
+    </dialog>
 
     <!-- Scripts -->
     <script>
