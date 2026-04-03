@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "slug": "exemple-bienvenue-blog",
+      "title": "Bienvenue sur le blog design & UX",
+      "date": "2026-04-03",
+      "excerpt": "Comment ce blog complète le portfolio : articles UI/UX, product design et retours d’expérience au Bénin.",
+      "coverImage": "/assets/images/preview.png",
+      "lang": "fr",
+      "published": true
+    },
+    {
+      "slug": "mon-titre",
+      "title": "Mon titre",
+      "date": "2026-04-03",
+      "excerpt": "Design UI/UX et product design : Mon titre",
+      "coverImage": "/assets/images/preview.png",
+      "lang": "fr",
+      "published": false
+    },
+    {
+      "slug": "mon-titre-d-article-seo",
+      "title": "Concevoir un produit digital efficace en UI/UX : guide pour startups et PME",
+      "date": "2026-04-03",
+      "excerpt": "Le design de produits digitaux au Bénin et en Afrique de l’Ouest prend une place croissante : startups, PME et institutions cherchent des interfaces claires, accessibles et crédibles. Cet article pose les bases d’une…",
+      "coverImage": "/assets/images/preview.png",
+      "lang": "fr",
+      "published": true
+    }
+  ]
+}

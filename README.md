@@ -214,6 +214,13 @@ Fais une copie de `projects.json` avant de modifier
 
 ---
 
+## Blog (articles)
+
+Génération des brouillons, clés API (Gemini, etc.) et **guide complet pour publier un article** (Git / Vercel) :
+
+→ **`scripts/README.md`**
+
+---
 
 Créé avec ❤️ par Imdad 
 Version : 2.0 - Janvier 2025

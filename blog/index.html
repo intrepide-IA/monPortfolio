@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://imdadadenon.vercel.app/blog/" />
+    <title>Blog — UI/UX & product design | Imdad ADENON</title>
+    <meta
+      name="description"
+      content="Articles sur le design UI/UX, le product design et le digital au Bénin — Imdad ADENON."
+    />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body class="min-h-screen">
+    <div class="particle-bg fixed inset-0 -z-10 opacity-40 pointer-events-none"></div>
+
+    <nav
+      class="sticky top-0 z-50 w-full bg-black/70 backdrop-blur-lg border-b border-gray-800"
+    >
+      <div
+        class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"
+      >
+        <a href="/" class="text-xl font-bold gradient-text tech-font"
+          >IMDAD ADENON</a
+        >
+        <div class="flex items-center gap-4 sm:gap-6 text-sm">
+          <a href="/" class="text-gray-300 hover:text-white transition">Portfolio</a>
+          <a href="/blog/" class="text-blue-400 font-medium">Blog</a>
+          <a href="/developer" class="text-gray-300 hover:text-white transition"
+            >Développeur</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10 text-center">
+      <p class="text-blue-300/90 text-sm uppercase tracking-widest mb-3">
+        Blog
+      </p>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tech-font mb-4">
+        <span class="gradient-text">Design, UX & produit digital</span>
+      </h1>
+      <p class="text-gray-400 max-w-2xl mx-auto">
+        Articles et guides — publication manuelle après validation, pour un contenu
+        utile et authentique.
+      </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
+      <div
+        id="blog-list"
+        class="grid grid-cols-1 md:grid-cols-2 gap-8"
+      >
+        <p class="text-gray-500 col-span-full text-center py-16">Chargement…</p>
+      </div>
+    </main>
+
+    <footer class="border-t border-gray-800 py-10 text-center text-gray-500 text-sm">
+      <a href="/" class="text-blue-400 hover:underline">← Retour au portfolio</a>
+      <p class="mt-4">© Imdad ADENON</p>
+    </footer>
+
+    <script src="/js/blog.js"></script>
+  </body>
+</html>
