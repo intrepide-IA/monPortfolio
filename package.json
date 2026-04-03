@@ -1,0 +1,10 @@
+{
+  "name": "mon-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfolio statique (HTML, CSS, JS) — déployé sur Vercel",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000",
+    "start": "npx --yes serve . -l 3000"
+  }
+}

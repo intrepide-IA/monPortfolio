@@ -1,0 +1,231 @@
+{
+  "_readme": "Édition sans HTML. Études de cas : voir data/projects.json → caseStudy par projet. Témoignages : rating 1-5. calendlyUrl vide = bouton masqué.",
+  "seo": {
+    "canonical": "https://imdadadenon.vercel.app/",
+    "extraKeywords": "Imdad ADENON, designer UI/UX Bénin, designer Cotonou, freelance Figma Bénin, product design Afrique de l'Ouest"
+  },
+  "hero": {
+    "fr": {
+      "badge": "UI/UX & PRODUCT DESIGN",
+      "nameLine": "IMDAD ADENON",
+      "role": "Designer UI/UX — web, mobile & produits digitaux",
+      "tagline": "Je conçois des expériences simples et efficaces pour aider les entreprises à mieux performer, au Bénin et à l’international.",
+      "ctaProjects": "Voir mes projets",
+      "ctaDiscuss": "Discutons de votre projet",
+      "ctaWhatsapp": "WhatsApp",
+      "ctaCalendly": "Réserver un appel",
+      "ctaCv": "Télécharger mon CV"
+    },
+    "en": {
+      "badge": "UI/UX & PRODUCT DESIGN",
+      "nameLine": "IMDAD ADENON",
+      "role": "UI/UX Designer — web, mobile & digital products",
+      "tagline": "I craft simple, effective experiences that help businesses perform better—in Benin and worldwide.",
+      "ctaProjects": "View my work",
+      "ctaDiscuss": "Let’s talk about your project",
+      "ctaWhatsapp": "WhatsApp",
+      "ctaCalendly": "Book a call",
+      "ctaCv": "Download my CV"
+    },
+    "whatsappUrl": "https://wa.me/22999997031",
+    "calendlyUrl": "",
+    "cvPath": "./CV Imdad ADENON.pdf"
+  },
+  "trust": {
+    "fr": {
+      "title": "Ils me font confiance",
+      "subtitle": "Marques, startups et structures accompagnées.",
+      "fallback": "Projets accompagnés"
+    },
+    "en": {
+      "title": "They trust me",
+      "subtitle": "Brands, startups and organizations I’ve worked with.",
+      "fallback": "Partner projects"
+    },
+    "items": [
+      {
+        "name": "Niyi Expertise",
+        "url": "https://niyiexpertise.com/home",
+        "logo": "./assets/images/niyiexpertise.jpg",
+        "description": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "name": "Sadelins",
+        "url": "https://sadelins.com/",
+        "logo": "./assets/images/sadelins.png",
+        "description": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "name": "Suprizs",
+        "url": "https://suprizs.com/",
+        "logo": "./assets/images/suprizs.png",
+        "description": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "name": "Scanr",
+        "url": "https://scanr.site/",
+        "logo": "./assets/images/scanr.png",
+        "description": {
+          "fr": "",
+          "en": ""
+        }
+      },
+      {
+        "name": "PromoRadio",
+        "url": "https://promoradio.africa/",
+        "logo": "./assets/images/promoradiologo.png",
+        "description": {
+          "fr": "",
+          "en": ""
+        }
+      }
+    ]
+  },
+  "specializations": {
+    "fr": { "title": "Spécialisations" },
+    "en": { "title": "Focus areas" },
+    "tags": [
+      { "fr": "Sites vitrines & landing pages", "en": "Websites & landing pages" },
+      { "fr": "Applications mobiles", "en": "Mobile apps" },
+      { "fr": "Dashboards & SaaS", "en": "Dashboards & SaaS" },
+      { "fr": "Design system & prototypes", "en": "Design systems & prototypes" }
+    ]
+  },
+  "method": {
+    "fr": {
+      "title": "Ma méthode de travail",
+      "subtitle": "Un processus clair, de la compréhension du besoin à la livraison avec les développeurs."
+    },
+    "en": {
+      "title": "How I work",
+      "subtitle": "A clear process—from understanding the need to handoff with developers."
+    },
+    "steps": [
+      {
+        "icon": "fa-magnifying-glass",
+        "fr": { "title": "Compréhension du besoin", "desc": "Brief, objectifs business, contraintes techniques et utilisateurs cibles." },
+        "en": { "title": "Discovery", "desc": "Brief, business goals, constraints and target users." }
+      },
+      {
+        "icon": "fa-users",
+        "fr": { "title": "Recherche & structure", "desc": "Parcours, contenus, arborescence et priorisation des écrans." },
+        "en": { "title": "Research & IA", "desc": "Flows, content, information architecture and screen priorities." }
+      },
+      {
+        "icon": "fa-pen-ruler",
+        "fr": { "title": "Wireframes", "desc": "Mise en page fonctionnelle avant le polish visuel." },
+        "en": { "title": "Wireframes", "desc": "Functional layout before visual polish." }
+      },
+      {
+        "icon": "fa-palette",
+        "fr": { "title": "UI Design", "desc": "Design system léger, composants, états et responsive." },
+        "en": { "title": "UI design", "desc": "Light design system, components, states and responsive." }
+      },
+      {
+        "icon": "fa-mobile-screen",
+        "fr": { "title": "Prototype", "desc": "Prototype cliquable Figma pour valider avant développement." },
+        "en": { "title": "Prototype", "desc": "Clickable Figma prototype to validate before build." }
+      },
+      {
+        "icon": "fa-code",
+        "fr": { "title": "Livraison & suivi", "desc": "Specs pour les devs, assets et itérations après retours." },
+        "en": { "title": "Handoff & follow-up", "desc": "Specs for devs, assets and iterations after feedback." }
+      }
+    ]
+  },
+  "services": {
+    "fr": {
+      "title": "Services",
+      "subtitle": "Ce que je peux faire pour votre produit ou votre marque."
+    },
+    "en": {
+      "title": "Services",
+      "subtitle": "What I can do for your product or brand."
+    },
+    "items": [
+      {
+        "icon": "fa-pen-nib",
+        "fr": { "title": "UI/UX Design", "desc": "Interfaces web & mobile centrées utilisateur et objectifs business." },
+        "en": { "title": "UI/UX design", "desc": "User-centered web & mobile interfaces aligned with business goals." }
+      },
+      {
+        "icon": "fa-mobile-screen-button",
+        "fr": { "title": "Design d’applications mobiles", "desc": "Parcours, écrans, design system et prototype." },
+        "en": { "title": "Mobile app design", "desc": "Flows, screens, design system and prototype." }
+      },
+      {
+        "icon": "fa-chart-line",
+        "fr": { "title": "Dashboards & SaaS", "desc": "Dense mais lisible : tableaux, filtres, états et empty states." },
+        "en": { "title": "Dashboards & SaaS", "desc": "Dense yet readable: tables, filters, states and empty states." }
+      },
+      {
+        "icon": "fa-hand-pointer",
+        "fr": { "title": "Prototype interactif", "desc": "Figma interactif pour tests et validation avec les parties prenantes." },
+        "en": { "title": "Interactive prototype", "desc": "Interactive Figma for testing and stakeholder validation." }
+      }
+    ]
+  },
+  "testimonials": {
+    "fr": {
+      "title": "Témoignages",
+      "subtitle": "Retours clients — remplacez par de vrais avis lorsque vous les avez."
+    },
+    "en": {
+      "title": "Testimonials",
+      "subtitle": "Client feedback—replace with real quotes when available."
+    },
+    "items": [
+      {
+        "rating": 5,
+        "fr": {
+          "quote": "Imdad a structuré notre parcours utilisateur et livré des maquettes prêtes pour l’équipe dev.",
+          "author": "Projet équipe produit",
+          "role": "Accompagnement UX/UI"
+        },
+        "en": {
+          "quote": "Imdad structured our user journey and delivered dev-ready mockups.",
+          "author": "Product team project",
+          "role": "UX/UI support"
+        }
+      },
+      {
+        "rating": 5,
+        "fr": {
+          "quote": "Communication claire, itérations rapides — exactement ce qu’il nous fallait pour la refonte.",
+          "author": "Refonte web",
+          "role": "Design & prototype"
+        },
+        "en": {
+          "quote": "Clear communication and fast iterations—exactly what we needed for the redesign.",
+          "author": "Website redesign",
+          "role": "Design & prototype"
+        }
+      }
+    ]
+  },
+  "contactExtras": {
+    "fr": {
+      "privacy": "En envoyant ce formulaire, vous acceptez que vos données soient utilisées uniquement pour répondre à votre demande.",
+      "ctaBar": "Réponse sous 24–48h — ou écrivez-moi directement sur WhatsApp."
+    },
+    "en": {
+      "privacy": "By submitting this form, you agree your data will be used only to reply to your request.",
+      "ctaBar": "Reply within 24–48h—or message me on WhatsApp."
+    }
+  },
+  "jsonLd": {
+    "jobTitle": "UI/UX Designer & Product Designer",
+    "descriptionFr": "Designer UI/UX et product design à Cotonou (Bénin). Sites web, applications mobiles, dashboards et prototypes Figma.",
+    "descriptionEn": "UI/UX and product designer in Cotonou, Benin. Websites, mobile apps, dashboards and Figma prototypes.",
+    "knowsAbout": ["UI/UX", "Figma", "Design web", "Design mobile", "Prototypage", "Product design"]
+  }
+}

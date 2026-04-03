@@ -357,3 +357,243 @@ body {
     min-height: 100vh;
   }
 }
+
+/* ========== TRUST MARQUEE (Ils nous font confiance) ========== */
+.trust-wrap {
+  box-sizing: border-box;
+}
+
+.trust-marquee {
+  overflow: hidden;
+  width: 100%;
+  min-width: 0;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 4%,
+    #000 96%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 4%,
+    #000 96%,
+    transparent
+  );
+}
+
+.trust-marquee__track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  backface-visibility: hidden;
+  animation: trust-marquee-scroll var(--trust-duration, 28s) linear infinite;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .trust-marquee:hover .trust-marquee__track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes trust-marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Une seule ligne : les deux séries de logos ont le même espacement (gap), boucle invisible */
+.trust-marquee__strip {
+  display: flex;
+  flex-shrink: 0;
+  align-items: stretch;
+  gap: 1.25rem;
+  width: max-content;
+}
+
+.trust-marquee__card {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .trust-marquee__card:hover .trust-marquee__card-inner {
+    border-color: rgba(96, 165, 250, 0.45);
+  }
+}
+
+.trust-marquee__card-inner {
+  box-sizing: border-box;
+  min-width: 7.5rem;
+  max-width: 11rem;
+  padding: 0.5rem 0.65rem;
+}
+
+@media (min-width: 400px) {
+  .trust-marquee__card-inner {
+    min-width: 8.5rem;
+    max-width: 12rem;
+    padding: 0.65rem 0.85rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .trust-marquee__card-inner {
+    min-width: 9.5rem;
+    max-width: 14rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+.trust-marquee__logo-wrap {
+  width: 5.25rem;
+  height: 2.625rem;
+}
+
+@media (min-width: 640px) {
+  .trust-marquee__logo-wrap {
+    width: 6.5rem;
+    height: 3.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .trust-marquee__logo-wrap {
+    width: 7rem;
+    height: 3.5rem;
+  }
+}
+
+.trust-marquee__logo {
+  max-height: 2.625rem;
+  max-width: 5.25rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(1.08) contrast(1.02);
+}
+
+@media (min-width: 640px) {
+  .trust-marquee__logo {
+    max-height: 3.25rem;
+    max-width: 6.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .trust-marquee__logo {
+    max-height: 3.5rem;
+    max-width: 7rem;
+  }
+}
+
+.trust-marquee__logo-fallback {
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 0.65rem;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.4),
+    rgba(147, 51, 234, 0.35)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #f3f4f6;
+}
+
+@media (min-width: 640px) {
+  .trust-marquee__logo-fallback {
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 0.8rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .trust-marquee__strip {
+    gap: 0.75rem;
+  }
+
+  .trust-marquee {
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent,
+      #000 2%,
+      #000 98%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      90deg,
+      transparent,
+      #000 2%,
+      #000 98%,
+      transparent
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trust-marquee__track {
+    animation: none;
+    width: 100%;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trust-marquee__strip {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    row-gap: 1rem;
+  }
+
+  .trust-marquee__card--dup {
+    display: none !important;
+  }
+
+  .trust-marquee {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+/* ========== MODAL ÉTUDE DE CAS ========== */
+.case-study-dialog {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  max-width: calc(100vw - 2rem);
+  margin: auto;
+}
+
+.case-study-dialog::backdrop {
+  background: rgba(5, 5, 12, 0.82);
+  backdrop-filter: blur(6px);
+}
+
+.case-study-dialog__close:hover {
+  color: #fff;
+}
+
+/* ========== CARROUSEL TÉMOIGNAGES ========== */
+.testimonials-carousel__dot--active {
+  background: linear-gradient(90deg, #00f0ff, #5773ff) !important;
+  transform: scale(1.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .testimonials-carousel__track {
+    transition: none !important;
+  }
+}

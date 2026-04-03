@@ -1,7 +1,19 @@
 // main.js - Orchestration principale du portfolio
 
 document.addEventListener('DOMContentLoaded', async function () {
-    
+
+    // 0. Contenu éditable (JSON) — avant les traductions pour le premier rendu
+    if (typeof window.loadSiteContent === 'function') {
+        try {
+            await window.loadSiteContent();
+            if (typeof window.renderSiteContent === 'function') {
+                window.renderSiteContent();
+            }
+        } catch (e) {
+            console.error('Chargement site-content:', e);
+        }
+    }
+
     // 1. Initialiser le gestionnaire de traductions
     if (typeof translationManager !== 'undefined') {
         translationManager.init();
@@ -9,12 +21,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     
     // 2. Charger et afficher les projets
     if (typeof projectsManager !== 'undefined') {
+        window.projectsManager = projectsManager;
         await projectsManager.loadProjects();
         projectsManager.setLanguage(translationManager.getCurrentLanguage());
         projectsManager.updateProjects();
-        
-        // Exposer globalement pour les changements de langue
-        window.projectsManager = projectsManager;
     }
     
     // 3. Gestion du menu mobile

@@ -9,6 +9,16 @@
       "figmaLink": "https://www.figma.com/proto/9m6ZsDtTXJt2VuTFWN0zBn/Urgence-1j?page-id=267%3A821&node-id=268-822&viewport=438%2C66%2C0.26&t=4MQzHrcdWNou3iEl-1&scaling=min-zoom&content-scaling=fixed",
       "websiteLink": "https://laboussolebtp.com",
       "status": "completed",
+      "impact": {
+        "fr": [
+          "Parcours orienté conversion (contact / demande de devis)",
+          "Hiérarchie visuelle renforcée pour les expertises BTP"
+        ],
+        "en": [
+          "Conversion-focused journey (contact / quote request)",
+          "Clearer visual hierarchy for construction expertise"
+        ]
+      },
       "translations": {
         "fr": {
           "description": "La Boussole BTP est un site vitrine conçu pour présenter les services, réalisations et domaines d’intervention d’une entreprise béninoise spécialisée dans le BTP.",
@@ -19,6 +29,22 @@
           "description": "La Boussole BTP is a corporate website designed to showcase the services, projects and expertise of a Beninese construction and public works company.",
           "categoryLabel": "Corporate website",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Entreprise béninoise du BTP : présenter services et réalisations avec clarté.",
+          "problem": "Informations dispersées, parcours peu guidé pour les prospects.",
+          "solution": "Architecture de contenu, hiérarchie visuelle et parcours de contact simplifié.",
+          "design": "Maquettes Figma, composants réutilisables, adaptation responsive.",
+          "results": "Parcours plus lisible, meilleure mise en avant des expertises (complétez avec vos métriques)."
+        },
+        "en": {
+          "context": "Beninese construction company: showcase services and projects clearly.",
+          "problem": "Scattered information and a weak journey for prospects.",
+          "solution": "Content architecture, visual hierarchy and a simpler contact flow.",
+          "design": "Figma mockups, reusable components, responsive adaptation.",
+          "results": "Clearer journey and stronger expertise positioning—add your metrics."
         }
       }
     },
@@ -31,6 +57,16 @@
       "figmaLink": "https://www.figma.com/proto/miqB4sgCN0pzci6Y65kRsm/AKILI?page-id=0%3A1&node-id=2-1321&p=f&viewport=1255%2C340%2C0.26&t=ZzKCAaaB2LlAj51C-1&scaling=min-zoom&content-scaling=fixed",
       "websiteLink": "https://akili.cc/",
       "status": "completed",
+      "impact": {
+        "fr": [
+          "Message valeur plus lisible au-dessus de la ligne de flottaison",
+          "CTA et preuves structurés pour la conversion"
+        ],
+        "en": [
+          "Clearer value proposition above the fold",
+          "Structured CTAs and proof points for conversion"
+        ]
+      },
       "translations": {
         "fr": {
           "description": "Akili est une landing page conçue pour promouvoir une application mobile éducative canadienne basée sur l’apprentissage ludique via un système d’abonnement donnant accès à une licence.",
@@ -41,6 +77,22 @@
           "description": "Akili is a landing page promoting a Canadian educational mobile application focused on game-based learning through a subscription-based licensing model.",
           "categoryLabel": "Educational application",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Landing pour une app éducative — conversion vers l’abonnement.",
+          "problem": "Message valeur peu immédiat au-dessus de la ligne de flottaison.",
+          "solution": "Storytelling produit, preuves sociales, CTA répétés sans agresser.",
+          "design": "Sections modulaires, illustration cohérente avec la marque.",
+          "results": "Meilleure lisibilité de l’offre (à mesurer côté analytics)."
+        },
+        "en": {
+          "context": "Landing page for an educational app—subscription conversion.",
+          "problem": "Value proposition not immediate enough above the fold.",
+          "solution": "Product storytelling, social proof, repeated CTAs without noise.",
+          "design": "Modular sections, brand-consistent visuals.",
+          "results": "Clearer offer (track with your analytics)."
         }
       }
     },
@@ -53,6 +105,16 @@
       "figmaLink": "https://www.figma.com/proto/101tXnRL1j8ug7vqxYkC7q/message-supriz?page-id=4%3A21&node-id=12341-5042&p=f&viewport=1058%2C863%2C0.04&t=Yv6ASbpOZXW2i8Sg-1&scaling=min-zoom&content-scaling=fixed",
       "websiteLink": "https://suprizs.com/",
       "status": "completed",
+      "impact": {
+        "fr": [
+          "Parcours de création d’événement simplifié",
+          "Cohérence visuelle sur les écrans clés"
+        ],
+        "en": [
+          "Simplified event creation flow",
+          "Visual consistency on key screens"
+        ]
+      },
       "translations": {
         "fr": {
           "description": "Supriz est une plateforme dédiée à la création de surprises personnalisées pour des événements comme les anniversaires, mariages ou célébrations, afin de rendre chaque moment inoubliable.",
@@ -63,6 +125,22 @@
           "description": "Supriz is a platform designed to create personalized surprises for events such as birthdays, weddings, and celebrations, making every moment truly memorable.",
           "categoryLabel": "Event platform",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme d’événements et de surprises personnalisées.",
+          "problem": "Parcours de création d’événement à simplifier et à rendre rassurant.",
+          "solution": "Parcours guidé, étapes claires, feedback visuel sur les choix.",
+          "design": "UI cohérente sur les flux clés, états vides et confirmations.",
+          "results": "Parcours plus fluide et image de marque renforcée."
+        },
+        "en": {
+          "context": "Event platform for personalized surprises.",
+          "problem": "Event creation flow to simplify and make reassuring.",
+          "solution": "Guided journey, clear steps, visual feedback on choices.",
+          "design": "Consistent UI on key flows, empty states and confirmations.",
+          "results": "Smoother flow and stronger brand perception."
         }
       }
     }
@@ -88,6 +166,22 @@
           "categoryLabel": "Agri-food e-commerce",
           "status": "online"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "E-commerce agroalimentaire pour des jus d’ananas — commande en ligne.",
+          "problem": "Mettre en valeur le produit, la marque et le tunnel d’achat sans surcharger la page.",
+          "solution": "Grille produit claire, fiches détaillées, CTA de commande visibles.",
+          "design": "UI fraîche alignée sur l’univers naturel, responsive e-commerce.",
+          "results": "Parcours d’achat simplifié et image produit renforcée (à affiner avec vos stats)."
+        },
+        "en": {
+          "context": "Agri-food e-commerce for pineapple juices with online ordering.",
+          "problem": "Showcase product, brand and checkout flow without cluttering the page.",
+          "solution": "Clear product grid, detailed pages, visible purchase CTAs.",
+          "design": "Fresh UI aligned with a natural brand, responsive e-commerce.",
+          "results": "Simpler purchase path and stronger product image—tune with your analytics."
+        }
       }
     },
     {
@@ -109,6 +203,22 @@
           "description": "PetSecure ID is a community platform that enables pet identification through scannable tags and helps reunite lost animals using a connected local community.",
           "categoryLabel": "Community platform",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme communautaire autour de l’identification et de la retrouvaille d’animaux.",
+          "problem": "Rendre le parcours médaille, profil et alerte simple pour tout type d’utilisateur.",
+          "solution": "Parcours guidé, scan mis en avant, états de succès et d’erreur explicites.",
+          "design": "Écrans clairs, confiance renforcée par des visuels rassurants.",
+          "results": "Meilleure compréhension du service et engagement communautaire facilité."
+        },
+        "en": {
+          "context": "Community platform for pet ID and reuniting lost animals.",
+          "problem": "Make tag, profile and alert flows simple for all users.",
+          "solution": "Guided journey, scan-first UI, clear success and error states.",
+          "design": "Clean screens and reassuring visuals to build trust.",
+          "results": "Clearer service understanding and easier community engagement."
         }
       }
     },
@@ -132,6 +242,22 @@
           "categoryLabel": "Civic Tech",
           "status": "private solution"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Outil Civic Tech pour la lecture et la comparaison des résultats électoraux.",
+          "problem": "Visualiser des volumes de données complexes (bureaux, centres) sans perdre le lecteur.",
+          "solution": "Tableaux et filtres hiérarchisés, codes couleur, accès rapide au détail.",
+          "design": "Dashboards denses mais lisibles, accessibilité des chiffres priorisée.",
+          "results": "Lecture des tendances facilitée pour les équipes et partenaires (projet confidentiel)."
+        },
+        "en": {
+          "context": "Civic Tech tool for reading and comparing election results.",
+          "problem": "Visualize complex data volumes without overwhelming users.",
+          "solution": "Hierarchical tables and filters, color coding, quick drill-down.",
+          "design": "Dense yet readable dashboards with emphasis on numeric clarity.",
+          "results": "Easier trend reading for teams and partners (confidential project)."
+        }
       }
     },
     {
@@ -153,6 +279,22 @@
           "description": "KiloFree is a French mobile app connecting travelers and shippers to sell or buy unused baggage space. Post an offer, find your match, and complete your deal effortlessly.",
           "categoryLabel": "Mobile application",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "App mobile — mise en relation voyageurs / expéditeurs.",
+          "problem": "Parcours d’offre et de recherche à rendre fluide sur petit écran.",
+          "solution": "Écrans priorisés, états vides, feedback utilisateur.",
+          "design": "Prototype navigable, composants mobiles, accessibilité de base.",
+          "results": "Expérience plus directe pour publier et trouver une correspondance."
+        },
+        "en": {
+          "context": "Mobile app connecting travelers and shippers.",
+          "problem": "Offer and search flows had to feel smooth on small screens.",
+          "solution": "Prioritized screens, empty states, user feedback.",
+          "design": "Clickable prototype, mobile components, basic accessibility.",
+          "results": "More straightforward publish-and-match experience."
         }
       }
     },
@@ -176,6 +318,22 @@
           "categoryLabel": "Real estate platform",
           "status": "online"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Mise en relation d’experts immobiliers et de clients pour des RDV en ligne.",
+          "problem": "Structurer l’offre (métiers, zones) et la prise de rendez-vous sans friction.",
+          "solution": "Parcours de recherche, fiches métiers, réservation et confirmation claires.",
+          "design": "Interface professionnelle, cartes et listes cohérentes sur desktop et mobile.",
+          "results": "Parcours de réservation plus clair pour les utilisateurs finaux."
+        },
+        "en": {
+          "context": "Connecting real estate experts with clients for online appointments.",
+          "problem": "Structure offers (roles, areas) and booking with minimal friction.",
+          "solution": "Search flows, role pages, clear booking and confirmation.",
+          "design": "Professional UI with consistent cards and lists on all devices.",
+          "results": "Clearer booking path for end users."
+        }
       }
     },
     {
@@ -185,8 +343,8 @@
       "categoryColor": "pink",
       "image": "./assets/images/promoradio.png",
       "figmaLink": "https://www.figma.com/proto/nz2ePplRHqoKSxuzBett50/PromoRadio?page-id=0%3A1&node-id=177-684&p=f&viewport=212%2C104%2C0.05&t=vPlye6YuAnoCdL1b-1&scaling=scale-down-width&content-scaling=fixed",
-      "websiteLink": null,
-      "status": "in-development",
+      "websiteLink": "https://promoradio.africa/",
+      "status": "online",
       "translations": {
         "fr": {
           "description": "PromoRadion est une plateforme destinée aux talents émergents de la musique, leur permettant de promouvoir leurs œuvres sur les radios partenaires via un abonnement flexible et accessible.",
@@ -197,6 +355,22 @@
           "description": "PromoRadion is a platform designed for emerging music artists, helping them promote their work on partner radio stations through a simple and affordable subscription system.",
           "categoryLabel": "Music platform",
           "status": "in development"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme de promotion musicale pour artistes émergents et radios partenaires.",
+          "problem": "Expliquer l’offre d’abonnement et le dépôt de titres sans complexifier l’interface.",
+          "solution": "Onboarding artiste, présentation des formules, suivi de campagne simplifié.",
+          "design": "Identité dynamique « musique », parcours mobile-first pour les créateurs.",
+          "results": "Compréhension de l’offre améliorée — à valider en production."
+        },
+        "en": {
+          "context": "Music promotion platform for emerging artists and partner radios.",
+          "problem": "Explain subscription and track upload without a heavy UI.",
+          "solution": "Artist onboarding, plan presentation, simplified campaign tracking.",
+          "design": "Dynamic music identity, mobile-first flows for creators.",
+          "results": "Clearer offer understanding—to validate in production."
         }
       }
     },
@@ -220,6 +394,22 @@
           "categoryLabel": "Insurance platform",
           "status": "online"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Accompagnement des assurés dans leurs litiges et démarches sinistre.",
+          "problem": "Rassurer et guider sur un sujet sensible avec des étapes juridiques claires.",
+          "solution": "Parcours par cas, contenus pédagogiques, formulaires et appels à l’action visibles.",
+          "design": "Ton sobre et crédible, hiérarchie forte pour la lecture longue.",
+          "results": "Utilisateurs mieux orientés dans leurs démarches (à ajuster selon retours terrain)."
+        },
+        "en": {
+          "context": "Supporting policyholders through insurance disputes and claims.",
+          "problem": "Reassure users on a sensitive topic with clear legal steps.",
+          "solution": "Case-based flows, educational content, visible forms and CTAs.",
+          "design": "Sober, credible tone and strong hierarchy for long-form reading.",
+          "results": "Better user guidance in their steps—refine with real feedback."
+        }
       }
     },
     {
@@ -241,6 +431,22 @@
           "description": "Djiguifa connects Malian merchants and customers through a simple, secure voucher system.",
           "categoryLabel": "E-commerce platform",
           "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "E-commerce par bons d’achat entre commerçants et clients au Mali.",
+          "problem": "Gagner la confiance sur le paiement et simplifier l’usage des bons.",
+          "solution": "Parcours d’achat court, confirmation et suivi de commande explicites.",
+          "design": "UI adaptée aux usages mobiles, états de validation du bon.",
+          "results": "Réduction de la friction perçue sur le parcours d’achat."
+        },
+        "en": {
+          "context": "Voucher-based e-commerce between Malian merchants and customers.",
+          "problem": "Build trust in payment and simplify voucher usage.",
+          "solution": "Short purchase path, explicit confirmation and order tracking.",
+          "design": "Mobile-first UI with clear voucher validation states.",
+          "results": "Lower perceived friction on the purchase journey."
         }
       }
     },
@@ -264,6 +470,22 @@
           "categoryLabel": "Eco-solidarity platform",
           "status": "online"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme européenne d’économie circulaire et d’échange de surplus.",
+          "problem": "Faire comprendre le modèle (don, échange, proximité) en quelques secondes.",
+          "solution": "Cartographie / listes par zone, fiches d’offre, mise en relation guidée.",
+          "design": "Univers vert et moderne, composants réutilisables pour les annonces.",
+          "results": "Meilleure adoption du concept par les nouveaux visiteurs."
+        },
+        "en": {
+          "context": "European circular economy platform for exchanging local surpluses.",
+          "problem": "Explain the model (gift, exchange, proximity) in seconds.",
+          "solution": "Area-based lists, offer cards, guided matching.",
+          "design": "Green modern look, reusable components for listings.",
+          "results": "Better concept adoption by first-time visitors."
+        }
       }
     },
     {
@@ -285,6 +507,22 @@
           "description": "Unyzer is a community platform in France that will allow citizens to report social abuses through collective action.",
           "categoryLabel": "Community platform",
           "status": "in development"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Plateforme citoyenne de signalement et d’actions collectives (en conception).",
+          "problem": "Équilibrer sécurité des contributeurs, clarté juridique et simplicité d’usage.",
+          "solution": "Parcours de signalement progressif, résumé avant envoi, rôles utilisateurs.",
+          "design": "Interface sobre, emphase sur la confidentialité et les étapes.",
+          "results": "Base UX prête pour itérations avec parties prenantes et juristes."
+        },
+        "en": {
+          "context": "Citizen platform for reporting and collective action (in design).",
+          "problem": "Balance contributor safety, legal clarity and ease of use.",
+          "solution": "Progressive reporting flow, summary before submit, user roles.",
+          "design": "Sober UI with emphasis on privacy and steps.",
+          "results": "UX baseline ready for iteration with stakeholders and legal."
         }
       }
     },
@@ -308,6 +546,22 @@
           "categoryLabel": "Cultural heritage",
           "status": "in development"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Application de valorisation du patrimoine oral et des traditions par région.",
+          "problem": "Rendre la cartographie culturelle attractive sans perdre le respect du contenu.",
+          "solution": "Navigation par région, lecteur / fiches culturelles, contribution progressive.",
+          "design": "Identité visuelle inspirée du local, iconographie soignée.",
+          "results": "Prototype validable avec communautés pour enrichissement du fond."
+        },
+        "en": {
+          "context": "App promoting oral heritage and traditions by region.",
+          "problem": "Make cultural mapping engaging while respecting the content.",
+          "solution": "Region navigation, player / cultural sheets, progressive contribution.",
+          "design": "Local-inspired visual identity and careful iconography.",
+          "results": "Prototype ready for validation with communities."
+        }
       }
     },
     {
@@ -327,6 +581,22 @@
         "en": {
           "description": "An organization committed to promoting ecotourism, sustainable environmental management, supporting women and youth, and developing local communities.",
           "categoryLabel": "Website"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Site institutionnel pour une ONG (écotourisme, environnement, communautés).",
+          "problem": "Structurer beaucoup d’axes d’action sans noyer le visiteur.",
+          "solution": "Architecture par piliers, pages dédiées, appels au soutien visibles.",
+          "design": "Visuels nature, hiérarchie claire, sections respirantes.",
+          "results": "Message associatif plus lisible et parcours vers le contact simplifié."
+        },
+        "en": {
+          "context": "Institutional site for an NGO (ecotourism, environment, communities).",
+          "problem": "Structure many action areas without overwhelming visitors.",
+          "solution": "Pillar-based IA, dedicated pages, visible support CTAs.",
+          "design": "Nature visuals, clear hierarchy, airy sections.",
+          "results": "Clearer NGO message and simpler path to contact."
         }
       }
     },
@@ -350,6 +620,22 @@
           "categoryLabel": "Smart note",
           "status": "in development"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Bloc-notes intelligent avec aide à la structuration via IA (en conception).",
+          "problem": "Éviter la surcharge cognitive : l’IA doit aider sans imposer.",
+          "solution": "Zones de saisie claires, suggestions discrètes, historique des blocs.",
+          "design": "UI minimaliste, focus typo et hiérarchie des notes.",
+          "results": "Maquettes prêtes pour tests utilisateurs sur la valeur de l’IA."
+        },
+        "en": {
+          "context": "Smart notebook with AI-assisted structuring (in design).",
+          "problem": "Avoid cognitive overload—AI should assist without imposing.",
+          "solution": "Clear input areas, subtle suggestions, block history.",
+          "design": "Minimal UI focused on typography and note hierarchy.",
+          "results": "Mocks ready for user testing on AI value."
+        }
       }
     },
     {
@@ -369,6 +655,22 @@
         "en": {
           "description": "Crew Sailing is a platform that connects captains and crew members to form the ideal crew for a sea voyage, with integrated verification based on the DISC personality test.",
           "categoryLabel": "Crew matching"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Mise en relation skippers / équipiers avec profilage DISC.",
+          "problem": "Allier confiance (mer) et simplicité du matching entre profils.",
+          "solution": "Fiches profil, résultats de test intégrés, messagerie ou prise de contact fluide.",
+          "design": "Ambiance maritime, cartes profil lisibles, étapes de vérification claires.",
+          "results": "Parcours de constitution d’équipage plus rassurant pour les deux parties."
+        },
+        "en": {
+          "context": "Matching skippers and crew with DISC-based profiling.",
+          "problem": "Balance trust at sea with simple profile matching.",
+          "solution": "Profile cards, embedded test results, smooth contact flow.",
+          "design": "Maritime mood, readable profile cards, clear verification steps.",
+          "results": "More reassuring crew-building path for both sides."
         }
       }
     },
@@ -390,6 +692,22 @@
           "description": "Exclusivert is a site of biosourced solutions that transforms rejected potatoes into sustainable products for industry and consumption.",
           "categoryLabel": "Sustainable industry"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Site vitrine d’une filière biosourcée à partir de pommes de terre déclassées.",
+          "problem": "Expliquer le process industriel tout en restant accessible au grand public.",
+          "solution": "Storytelling en étapes, chiffres clés, applications B2B / B2C séparées.",
+          "design": "Charte nature / industrie, sections modulaires pour les usages.",
+          "results": "Compréhension du modèle économique et écologique renforcée."
+        },
+        "en": {
+          "context": "Showcase site for a biosourced chain from rejected potatoes.",
+          "problem": "Explain industrial process while staying accessible to the public.",
+          "solution": "Step storytelling, key figures, split B2B / B2C applications.",
+          "design": "Nature-meets-industry art direction, modular sections.",
+          "results": "Stronger understanding of economic and ecological model."
+        }
       }
     },
     {
@@ -410,6 +728,22 @@
           "description": "Wevi-Fisheries is an aquaculture company specializing in the collection, transformation of farming systems, and distribution of African catfish.",
           "categoryLabel": "Beninese fishery products"
         }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Refonte digitale pour une entreprise aquacole et halieutique au Bénin.",
+          "problem": "Présenter filière, produits et savoir-faire avec crédibilité B2B.",
+          "solution": "Parcours par offres, visuels produit, contact et localisation mis en avant.",
+          "design": "Univers bleu / aquatique, mises en page aérées pour le catalogue.",
+          "results": "Image plus professionnelle et informations techniques mieux structurées."
+        },
+        "en": {
+          "context": "Digital redesign for a Beninese aquaculture and fishery company.",
+          "problem": "Present chain, products and expertise with B2B credibility.",
+          "solution": "Offer-based journey, product visuals, prominent contact and location.",
+          "design": "Blue aquatic theme, airy layouts for catalog content.",
+          "results": "More professional image and better structured technical info."
+        }
       }
     },
     {
@@ -429,6 +763,22 @@
         "en": {
           "description": "Building the future of maritime excellence. Providing maritime solutions, shipbuilding, and engine repair services with unmatched expertise and dedication.",
           "categoryLabel": "Boat manufacturing and sales"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Site corporate pour construction navale, réparation et services maritimes.",
+          "problem": "Valoriser l’expertise technique et rassurer sur la qualité des ouvrages.",
+          "solution": "Galeries réalisations, segmentation services, prise de contact directe.",
+          "design": "Esthétique maritime premium, grandes images et typo lisible.",
+          "results": "Positionnement « excellence » mieux reflété dans l’expérience web."
+        },
+        "en": {
+          "context": "Corporate site for shipbuilding, repair and maritime services.",
+          "problem": "Showcase technical expertise and quality of workmanship.",
+          "solution": "Project galleries, segmented services, direct contact paths.",
+          "design": "Premium maritime look, large imagery and readable type.",
+          "results": "“Excellence” positioning better reflected in the web experience."
         }
       }
     }

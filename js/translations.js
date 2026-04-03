@@ -3,11 +3,16 @@
 const translations = {
   fr: {
     "nav-home": "Accueil",
+    "nav-trust": "Confiance",
     "nav-recent": "Projets récents",
+    "nav-case": "Études de cas",
+    "nav-method": "Méthode",
+    "nav-services": "Services",
     "nav-skills": "Compétences",
     "nav-about": "À propos",
     "nav-projects": "Mes Projets",
     "nav-contact": "Contact",
+    "cta-whatsapp": "WhatsApp",
     "hero-badge": "FUTURE DU DESIGN UI/UX",
     "hero-title": "Designer UI/UX",
     "hero-desc":
@@ -24,7 +29,8 @@ const translations = {
     "about-title": "À propos de moi",
     "about-text":
       "Passionné par la technologie depuis mon plus jeune âge, j'ai rapidement découvert que je m'épanouissais davantage dans l'univers du design. C'est cette affinité qui m'a conduit à orienter ma carrière vers le design UI/UX, un domaine où je peux allier créativité, sens du détail et compréhension des besoins utilisateurs.",
-    "exp-1": "Plus de 1 ans d'expérience dans le design web et mobile UI/UX.",
+    "exp-1":
+      "Plus d'un an d'expérience dans le design web et mobile UI/UX.",
     "exp-2":
       "Diplômé en Système Informatique & logiciel à l'UATM Gasa-Formation du Bénin.",
     "exp-3": "Plus de 20 projets réalisés pour des clients variés.",
@@ -95,15 +101,20 @@ const translations = {
     "footer-skill-3": "Intégration Web (HTML, CSS, Tailwind, React)",
     "footer-skill-4": "Mobile Friendly Design",
     "footer-about": "À propos",
-    "footer-copyright": "© 2025 Imdad ADENON. Tous droits réservés.",
+    "footer-copyright": "© 2026 Imdad ADENON. Tous droits réservés.",
   },
   en: {
     "nav-home": "Home",
+    "nav-trust": "Trust",
+    "nav-case": "Case studies",
+    "nav-method": "Process",
+    "nav-services": "Services",
     "nav-recent": "Recent Projects",
     "nav-skills": "Skills",
     "nav-about": "About",
     "nav-projects": "My Projects",
     "nav-contact": "Contact",
+    "cta-whatsapp": "WhatsApp",
     "hero-badge": "FUTURE OF UI/UX DESIGN",
     "hero-title": "UI/UX Designer",
     "hero-desc":
@@ -190,7 +201,7 @@ const translations = {
     "footer-skill-3": "Web Integration (HTML, CSS, Tailwind, React)",
     "footer-skill-4": "Mobile Friendly Design",
     "footer-about": "About",
-    "footer-copyright": "© 2025 Imdad ADENON. All rights reserved.",
+    "footer-copyright": "© 2026 Imdad ADENON. All rights reserved.",
   },
 };
 
@@ -210,6 +221,10 @@ class TranslationManager {
     document.documentElement.lang = lang;
 
     this.updatePageContent(lang);
+
+    if (typeof window.renderSiteContent === "function") {
+      window.renderSiteContent();
+    }
 
     if (window.projectsManager) {
       window.projectsManager.setLanguage(lang);
