@@ -93,13 +93,22 @@
       });
   }
 
-  function initArticle() {
+    function initArticle() {
     const root = document.getElementById("blog-article-body");
     const coverEl = document.getElementById("blog-article-cover");
     const titleEl = document.getElementById("blog-article-title");
     const dateEl = document.getElementById("blog-article-date");
     const metaDesc = document.getElementById("blog-meta-description");
     const metaTitle = document.getElementById("blog-meta-title");
+    
+    // Nouveaux éléments Meta pour le partage
+    const ogTitle = document.getElementById("og-title");
+    const ogDesc = document.getElementById("og-description");
+    const ogImg = document.getElementById("og-image");
+    const twTitle = document.getElementById("twitter-title");
+    const twDesc = document.getElementById("twitter-description");
+    const twImg = document.getElementById("twitter-image");
+
     if (!root) return;
 
     const params = new URLSearchParams(window.location.search);
@@ -122,17 +131,34 @@
         const { meta, body } = parseFrontmatter(raw);
         const title = meta.title || post.title;
         const desc = meta.excerpt || post.excerpt || "";
+        const fullTitle = title + " | Blog — Imdad ADENON";
+        
         if (titleEl) titleEl.textContent = title;
         if (dateEl) dateEl.textContent = formatDate(meta.date || post.date);
+        
+        // Mise à jour des Meta classiques
         if (metaDesc) metaDesc.setAttribute("content", desc);
-        if (metaTitle) metaTitle.setAttribute("content", title + " | Blog — Imdad ADENON");
-        document.title = title + " | Blog — Imdad ADENON";
+        if (metaTitle) metaTitle.setAttribute("content", fullTitle);
+        document.title = fullTitle;
 
         const cover = meta.coverImage || post.coverImage || "/assets/images/preview.png";
+        
+        // URL absolue pour les robots
+        const baseUrl = window.location.origin;
+        const absCover = (cover.startsWith("http")) ? cover : baseUrl + cover;
+
         if (coverEl) {
           coverEl.src = cover;
           coverEl.alt = title;
         }
+
+        // Mise à jour des tags Open Graph et Twitter
+        if (ogTitle) ogTitle.setAttribute("content", fullTitle);
+        if (ogDesc) ogDesc.setAttribute("content", desc);
+        if (ogImg) ogImg.setAttribute("content", absCover);
+        if (twTitle) twTitle.setAttribute("content", fullTitle);
+        if (twDesc) twDesc.setAttribute("content", desc);
+        if (twImg) twImg.setAttribute("content", absCover);
 
         if (typeof marked !== "undefined" && marked.parse) {
           root.innerHTML = marked.parse(body, { mangle: false, headerIds: true });
