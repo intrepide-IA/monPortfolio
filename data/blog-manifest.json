@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "5-bonnes-pratiques-ui-ux-pour-vos-dashboards-saas",
+      "title": "5 bonnes pratiques UI/UX pour vos dashboards SaaS",
+      "date": "2026-04-09",
+      "excerpt": "Le design de produits digitaux au Bénin et en Afrique de l’Ouest prend une place croissante : startups, PME et institutions cherchent des interfaces claires, accessibles et crédibles. Cet article pose les bases d’une…",
+      "coverImage": "/content/blog/images/5-bonnes-pratiques-ui-ux-pour-vos-dashboards-saas-cover.jpg",
+      "lang": "fr",
+      "published": true
+    },
+    {
       "slug": "comment-j-ai-reussi-a-referencer-mon-portfolio-et-mon-nom-sur-google-et-pourquoi-ca-n-a-pas-ete-facile",
       "title": "Comment j’ai réussi à référencer mon portfolio et mon nom sur Google (et pourquoi ça n’a pas été facile)",
       "date": "2026-04-05",
