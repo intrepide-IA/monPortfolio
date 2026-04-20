@@ -1,6 +1,54 @@
 {
   "recentProjects": [
     {
+      "id": "scanr",
+      "name": "SCANR",
+      "category": "saas-platform",
+      "categoryColor": "green",
+      "image": "./assets/images/scanrsite.png",
+      "figmaLink": "",
+      "websiteLink": "https://scanr.site/",
+      "status": "completed",
+      "impact": {
+        "fr": [
+          "Digitalisation de la gestion des restaurants (menus, commandes, accès client)",
+          "Amélioration de l’expérience client via QR code et accès rapide aux menus"
+        ],
+        "en": [
+          "Digitization of restaurant management (menus, orders, customer access)",
+          "Improved customer experience through QR codes and fast menu access"
+        ]
+      },
+      "translations": {
+        "fr": {
+          "description": "Scanr est une plateforme SaaS qui permet aux restaurants de créer, gérer et vendre leurs menus en ligne, avec génération de QR codes et portail dédié à chaque établissement.",
+          "categoryLabel": "Plateforme SaaS",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Scanr is a SaaS platform that enables restaurants to create, manage and sell their menus online, with QR code generation and a dedicated portal for each business.",
+          "categoryLabel": "SaaS platform",
+          "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Les restaurants ont besoin de solutions digitales pour gérer leurs menus et offrir une expérience moderne aux clients.",
+          "problem": "Gestion manuelle des menus, manque de visibilité en ligne et expérience client limitée.",
+          "solution": "Plateforme centralisée permettant la création de menus, la génération de QR codes et la vente en ligne.",
+          "design": "Intervention UX : recommandations sur la structure des pages, amélioration des parcours utilisateurs et optimisation de l’accessibilité des menus.",
+          "results": "Expérience utilisateur plus fluide et meilleure accessibilité des services (aucune donnée chiffrée publique disponible)."
+        },
+        "en": {
+          "context": "Restaurants need digital tools to manage menus and provide a modern customer experience.",
+          "problem": "Manual menu management, low online visibility and limited customer experience.",
+          "solution": "Centralized platform for menu creation, QR code generation and online ordering.",
+          "design": "UX contribution: recommendations on page structure, user flows improvement and menu accessibility optimization.",
+          "results": "Smoother user experience and better service accessibility (no public metrics available)."
+        }
+      }
+    },
+    {
       "id": "la-boussole-btp",
       "name": "LA BOUSSOLE BTP",
       "category": "corporate-website",
@@ -45,54 +93,6 @@
           "solution": "Content architecture, visual hierarchy and a simpler contact flow.",
           "design": "Figma mockups, reusable components, responsive adaptation.",
           "results": "Clearer journey and stronger expertise positioning—add your metrics."
-        }
-      }
-    },
-    {
-      "id": "akili",
-      "name": "AKILI",
-      "category": "mobile-learning",
-      "categoryColor": "purple",
-      "image": "./assets/images/akili.png",
-      "figmaLink": "https://www.figma.com/proto/miqB4sgCN0pzci6Y65kRsm/AKILI?page-id=0%3A1&node-id=2-1321&p=f&viewport=1255%2C340%2C0.26&t=ZzKCAaaB2LlAj51C-1&scaling=min-zoom&content-scaling=fixed",
-      "websiteLink": "https://akili.cc/",
-      "status": "completed",
-      "impact": {
-        "fr": [
-          "Message valeur plus lisible au-dessus de la ligne de flottaison",
-          "CTA et preuves structurés pour la conversion"
-        ],
-        "en": [
-          "Clearer value proposition above the fold",
-          "Structured CTAs and proof points for conversion"
-        ]
-      },
-      "translations": {
-        "fr": {
-          "description": "Akili est une landing page conçue pour promouvoir une application mobile éducative canadienne basée sur l’apprentissage ludique via un système d’abonnement donnant accès à une licence.",
-          "categoryLabel": "Application éducative",
-          "status": "en ligne"
-        },
-        "en": {
-          "description": "Akili is a landing page promoting a Canadian educational mobile application focused on game-based learning through a subscription-based licensing model.",
-          "categoryLabel": "Educational application",
-          "status": "online"
-        }
-      },
-      "caseStudy": {
-        "fr": {
-          "context": "Landing pour une app éducative — conversion vers l’abonnement.",
-          "problem": "Message valeur peu immédiat au-dessus de la ligne de flottaison.",
-          "solution": "Storytelling produit, preuves sociales, CTA répétés sans agresser.",
-          "design": "Sections modulaires, illustration cohérente avec la marque.",
-          "results": "Meilleure lisibilité de l’offre (à mesurer côté analytics)."
-        },
-        "en": {
-          "context": "Landing page for an educational app—subscription conversion.",
-          "problem": "Value proposition not immediate enough above the fold.",
-          "solution": "Product storytelling, social proof, repeated CTAs without noise.",
-          "design": "Modular sections, brand-consistent visuals.",
-          "results": "Clearer offer (track with your analytics)."
         }
       }
     },
@@ -146,6 +146,44 @@
     }
   ],
   "allProjects": [
+    {
+      "id": "akili",
+      "name": "AKILI",
+      "category": "mobile-learning",
+      "categoryColor": "purple",
+      "image": "./assets/images/akili.png",
+      "figmaLink": "https://www.figma.com/proto/miqB4sgCN0pzci6Y65kRsm/AKILI?page-id=0%3A1&node-id=2-1321&p=f&viewport=1255%2C340%2C0.26&t=ZzKCAaaB2LlAj51C-1&scaling=min-zoom&content-scaling=fixed",
+      "websiteLink": "https://akili.cc/",
+      "status": "completed",
+      "translations": {
+        "fr": {
+          "description": "Akili est une landing page conçue pour promouvoir une application mobile éducative canadienne basée sur l’apprentissage ludique via un système d’abonnement donnant accès à une licence.",
+          "categoryLabel": "Application éducative",
+          "status": "en ligne"
+        },
+        "en": {
+          "description": "Akili is a landing page promoting a Canadian educational mobile application focused on game-based learning through a subscription-based licensing model.",
+          "categoryLabel": "Educational application",
+          "status": "online"
+        }
+      },
+      "caseStudy": {
+        "fr": {
+          "context": "Landing pour une app éducative — conversion vers l’abonnement.",
+          "problem": "Message valeur peu immédiat au-dessus de la ligne de flottaison.",
+          "solution": "Storytelling produit, preuves sociales, CTA répétés sans agresser.",
+          "design": "Sections modulaires, illustration cohérente avec la marque.",
+          "results": "Meilleure lisibilité de l’offre (à mesurer côté analytics)."
+        },
+        "en": {
+          "context": "Landing page for an educational app—subscription conversion.",
+          "problem": "Value proposition not immediate enough above the fold.",
+          "solution": "Product storytelling, social proof, repeated CTAs without noise.",
+          "design": "Modular sections, brand-consistent visuals.",
+          "results": "Clearer offer (track with your analytics)."
+        }
+      }
+    },
     {
       "id": "as-green",
       "name": "AS GREEN",
