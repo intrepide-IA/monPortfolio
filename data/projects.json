@@ -1,6 +1,191 @@
 {
   "recentProjects": [
     {
+    "id": "nutrition-tv",
+    "name": "Nutrition TV",
+    "category": "health-platform",
+    "categoryColor": "green",
+    "image": "./assets/images/nutritiontv.png",
+    "figmaLink": "https://www.figma.com/proto/IahYfBXwDFL5k80YKzuWvR/Nutrition-TV?node-id=1654-9707&viewport=-161%2C-6755%2C0.28&t=KTHxhXSzKlHq1SMv-1&scaling=scale-down&content-scaling=fixed&page-id=8%3A2",
+    "websiteLink": "https://nutritiontv.fr/j/acceuil",
+    "status": "completed",
+    "impact": {
+      "fr": [
+        "Valorisation de la nutrition tropicale à travers une plateforme éducative spécialisée",
+        "Amélioration de l’accès aux contenus santé, aux échanges communautaires et à la prise de rendez-vous"
+      ],
+      "en": [
+        "Promotion of tropical nutrition through a specialized educational platform",
+        "Improved access to health content, community discussions and appointment booking"
+      ]
+    },
+    "translations": {
+      "fr": {
+        "description": "Nutrition TV est une plateforme dédiée à la nutrition tropicale permettant aux utilisateurs d’accéder à des ressources éducatives, des livres spécialisés, une communauté santé et un système de prise de rendez-vous avec Josie K, coach certifiée en nutrition tropicale.",
+        "categoryLabel": "Plateforme santé",
+        "status": "en ligne"
+      },
+      "en": {
+        "description": "Nutrition TV is a platform focused on tropical nutrition, giving users access to educational resources, specialized books, a health community and appointment booking with Josie K, a certified tropical nutrition coach.",
+        "categoryLabel": "Health platform",
+        "status": "online"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "Le besoin de démocratiser l’accès aux conseils en nutrition tropicale et de créer une communauté santé engagée était au cœur du projet.",
+        "problem": "Absence d’une plateforme centralisée combinant contenus éducatifs, accompagnement nutritionnel et interactions communautaires.",
+        "solution": "Conception d’une interface moderne permettant l’accès aux livres, discussions santé et réservations de consultations.",
+        "design": "Réalisation de la maquette UX/UI avec une attention portée à l’accessibilité des contenus, à la hiérarchie visuelle et à la fluidité des parcours utilisateurs.",
+        "results": "Plateforme claire et intuitive facilitant l’accès aux ressources nutritionnelles et aux services de coaching."
+      },
+      "en": {
+        "context": "The project aimed to democratize access to tropical nutrition guidance while building an engaged health community.",
+        "problem": "Lack of a centralized platform combining educational content, nutritional coaching and community interaction.",
+        "solution": "Design of a modern interface enabling access to books, health discussions and consultation booking.",
+        "design": "UX/UI design focused on content accessibility, visual hierarchy and smooth user journeys.",
+        "results": "An intuitive platform improving access to nutritional resources and coaching services."
+      }
+    }
+  },
+  {
+    "id": "kowo-mobile",
+    "name": "KOWO Mobile",
+    "category": "fintech-mobile",
+    "categoryColor": "orange",
+    "image": "./assets/images/kowomobile.png",
+    "figmaLink": "https://www.figma.com/proto/hHK1pFV6xVDkyBCjUZ0mBy/KOWO?node-id=8-372&p=f&viewport=409%2C48%2C0.08&t=v4v5w2NUpzHVUxq5-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+    "websiteLink": "",
+    "status": "completed",
+    "impact": {
+      "fr": [
+        "Contribution à l’inclusion financière des MPME béninoises",
+        "Conception d’une expérience accessible aux utilisateurs analphabètes"
+      ],
+      "en": [
+        "Contribution to financial inclusion for Beninese SMEs",
+        "Designed an accessible experience for illiterate users"
+      ]
+    },
+    "translations": {
+      "fr": {
+        "description": "KOWO Mobile est une solution imaginée lors d’un hackathon pour aider les MPME béninoises à se formaliser et accéder plus facilement au financement grâce à une application mobile inclusive.",
+        "categoryLabel": "Application fintech",
+        "status": "prototype"
+      },
+      "en": {
+        "description": "KOWO Mobile is a hackathon project designed to help Beninese SMEs formalize their activities and gain easier access to financing through an inclusive mobile application.",
+        "categoryLabel": "Fintech mobile app",
+        "status": "prototype"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "Le projet répondait aux problématiques d’accès au financement des petites entreprises béninoises.",
+        "problem": "Les MPME et utilisateurs analphabètes rencontrent des difficultés à accéder aux solutions financières classiques.",
+        "solution": "Conception d’une application mobile intuitive et inclusive adaptée à différents niveaux de littératie.",
+        "design": "Travail UX/UI focalisé sur l’accessibilité, les icônes visuelles et des parcours simplifiés.",
+        "results": "Prototype fonctionnel présenté dans le cadre du hackathon avec une approche centrée inclusion et accessibilité."
+      },
+      "en": {
+        "context": "The project addressed financing accessibility issues for Beninese SMEs.",
+        "problem": "SMEs and illiterate users face difficulties accessing traditional financial services.",
+        "solution": "Design of an intuitive and inclusive mobile application adapted to different literacy levels.",
+        "design": "UX/UI work focused on accessibility, visual cues and simplified user flows.",
+        "results": "Functional prototype presented during the hackathon with a strong inclusion-focused approach."
+      }
+    }
+  },
+  {
+    "id": "avis-client",
+    "name": "Avis Client",
+    "category": "survey-platform",
+    "categoryColor": "yellow",
+    "image": "./assets/images/avisclient.png",
+    "figmaLink": "https://www.figma.com/proto/lALBoE2Zhv89l9kdr70UyI/Avis-client?node-id=235-2902&viewport=447%2C455%2C0.03&t=h6oU75klRs98eNyQ-1&scaling=scale-down&content-scaling=fixed&page-id=7%3A1343",
+    "websiteLink": "https://voxirate.niyiexpertise.com/",
+    "status": "completed",
+    "impact": {
+      "fr": [
+        "Centralisation des campagnes de collecte d’avis clients",
+        "Amélioration de l’analyse des retours utilisateurs pour la prise de décision"
+      ],
+      "en": [
+        "Centralized customer feedback campaign management",
+        "Improved user feedback analysis for decision-making"
+      ]
+    },
+    "translations": {
+      "fr": {
+        "description": "Avis Client est une plateforme développée sur mesure pour une pharmacie afin de gérer des campagnes internes et externes de collecte d’avis clients et d’analyser les résultats pour faciliter les prises de décision.",
+        "categoryLabel": "Plateforme d’enquête",
+        "status": "privé"
+      },
+      "en": {
+        "description": "Avis Client is a custom-built platform for a pharmacy, designed to manage internal and external customer feedback campaigns and analyze results for better decision-making.",
+        "categoryLabel": "Survey platform",
+        "status": "private"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "La pharmacie souhaitait structurer et digitaliser son processus de collecte d’avis clients.",
+        "problem": "Difficulté à centraliser les retours clients et à exploiter efficacement les données recueillies.",
+        "solution": "Création d’une interface permettant le lancement de campagnes, le suivi des réponses et l’analyse des résultats.",
+        "design": "Conception UX/UI axée sur la simplicité d’utilisation, la visualisation des données et la gestion efficace des campagnes.",
+        "results": "Meilleure organisation des campagnes et accès simplifié aux retours utilisateurs."
+      },
+      "en": {
+        "context": "The pharmacy wanted to digitize and streamline its customer feedback collection process.",
+        "problem": "Difficulty centralizing customer feedback and efficiently analyzing collected data.",
+        "solution": "Development of an interface for campaign creation, response tracking and result analysis.",
+        "design": "UX/UI design focused on usability, data visualization and efficient campaign management.",
+        "results": "Better campaign organization and simplified access to user feedback."
+      }
+    }
+  }
+    
+  ],
+  "allProjects": [
+    {
+    "id": "dmk-exchange",
+    "name": "DMK Exchange",
+    "category": "fintech",
+    "categoryColor": "blue",
+    "image": "./assets/images/dmkexchange.png",
+    "figmaLink": "https://www.figma.com/proto/yumwWlSRi3QrPbk8clS727/DKM-Exchange?node-id=2008-4&viewport=-569%2C481%2C0.47&t=uUl5zRKoXmusQCen-1&scaling=min-zoom&content-scaling=fixed&page-id=2003%3A2",
+    "websiteLink": "",
+    "status": "completed",
+    "translations": {
+      "fr": {
+        "description": "DMK Exchange est une solution desktop développée sur mesure pour une entreprise spécialisée dans l’échange de monnaies FCFA et Naira afin de gérer efficacement les opérations internes.",
+        "categoryLabel": "Solution fintech",
+        "status": "privé"
+      },
+      "en": {
+        "description": "DMK Exchange is a custom desktop solution designed for a company specialized in FCFA and Naira currency exchange operations.",
+        "categoryLabel": "Fintech solution",
+        "status": "private"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "L’entreprise avait besoin d’un outil interne adapté à ses processus métier spécifiques.",
+        "problem": "Gestion manuelle complexe des opérations de change et manque d’outils adaptés.",
+        "solution": "Création d’une application desktop locale répondant aux besoins opérationnels du client.",
+        "design": "Conception UX/UI centrée sur l’efficacité opérationnelle, la rapidité d’exécution et la clarté des interfaces.",
+        "results": "Amélioration de l’organisation des opérations et meilleure efficacité de traitement."
+      },
+      "en": {
+        "context": "The company needed an internal tool tailored to its operational workflow.",
+        "problem": "Complex manual handling of exchange operations and lack of suitable tools.",
+        "solution": "Development of a local desktop application matching the client’s operational requirements.",
+        "design": "UX/UI design focused on operational efficiency, execution speed and interface clarity.",
+        "results": "Improved organization and operational efficiency."
+      }
+    }
+  },
+    {
       "id": "scanr",
       "name": "SCANR",
       "category": "saas-platform",
@@ -9,16 +194,6 @@
       "figmaLink": "",
       "websiteLink": "https://scanr.site/",
       "status": "completed",
-      "impact": {
-        "fr": [
-          "Digitalisation de la gestion des restaurants (menus, commandes, accès client)",
-          "Amélioration de l’expérience client via QR code et accès rapide aux menus"
-        ],
-        "en": [
-          "Digitization of restaurant management (menus, orders, customer access)",
-          "Improved customer experience through QR codes and fast menu access"
-        ]
-      },
       "translations": {
         "fr": {
           "description": "Scanr est une plateforme SaaS qui permet aux restaurants de créer, gérer et vendre leurs menus en ligne, avec génération de QR codes et portail dédié à chaque établissement.",
@@ -57,16 +232,6 @@
       "figmaLink": "https://www.figma.com/proto/9m6ZsDtTXJt2VuTFWN0zBn/Urgence-1j?page-id=267%3A821&node-id=268-822&viewport=438%2C66%2C0.26&t=4MQzHrcdWNou3iEl-1&scaling=min-zoom&content-scaling=fixed",
       "websiteLink": "https://laboussolebtp.com",
       "status": "completed",
-      "impact": {
-        "fr": [
-          "Parcours orienté conversion (contact / demande de devis)",
-          "Hiérarchie visuelle renforcée pour les expertises BTP"
-        ],
-        "en": [
-          "Conversion-focused journey (contact / quote request)",
-          "Clearer visual hierarchy for construction expertise"
-        ]
-      },
       "translations": {
         "fr": {
           "description": "La Boussole BTP est un site vitrine conçu pour présenter les services, réalisations et domaines d’intervention d’une entreprise béninoise spécialisée dans le BTP.",
@@ -105,16 +270,6 @@
       "figmaLink": "https://www.figma.com/proto/101tXnRL1j8ug7vqxYkC7q/message-supriz?page-id=4%3A21&node-id=12341-5042&p=f&viewport=1058%2C863%2C0.04&t=Yv6ASbpOZXW2i8Sg-1&scaling=min-zoom&content-scaling=fixed",
       "websiteLink": "https://suprizs.com/",
       "status": "completed",
-      "impact": {
-        "fr": [
-          "Parcours de création d’événement simplifié",
-          "Cohérence visuelle sur les écrans clés"
-        ],
-        "en": [
-          "Simplified event creation flow",
-          "Visual consistency on key screens"
-        ]
-      },
       "translations": {
         "fr": {
           "description": "Supriz est une plateforme dédiée à la création de surprises personnalisées pour des événements comme les anniversaires, mariages ou célébrations, afin de rendre chaque moment inoubliable.",
@@ -143,9 +298,7 @@
           "results": "Smoother flow and stronger brand perception."
         }
       }
-    }
-  ],
-  "allProjects": [
+    },
     {
       "id": "akili",
       "name": "AKILI",

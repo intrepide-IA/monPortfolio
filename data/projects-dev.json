@@ -1,6 +1,102 @@
 {
   "recentProjects": [
     {
+    "id": "kowo-web",
+    "name": "KOWO Web",
+    "category": "admin-dashboard",
+    "categoryColor": "purple",
+    "image": "./assets/images/kowoweb.png",
+    "figmaLink": "",
+    "websiteLink": "https://kowo.vercel.app/",
+    "status": "completed",
+    "impact": {
+      "fr": [
+        "Digitalisation du processus d’analyse des demandes de financement",
+        "Optimisation du workflow entre banques et institutions de microfinance"
+      ],
+      "en": [
+        "Digitization of financing request analysis",
+        "Optimized workflow between banks and microfinance institutions"
+      ]
+    },
+    "translations": {
+      "fr": {
+        "description": "KOWO Web est le dashboard web développé pour permettre aux banques et institutions de microfinance d’analyser les demandes de financement provenant de l’application mobile KOWO.",
+        "categoryLabel": "Dashboard administratif",
+        "status": "en ligne"
+      },
+      "en": {
+        "description": "KOWO Web is the web dashboard developed for banks and microfinance institutions to analyze financing requests submitted through the KOWO mobile application.",
+        "categoryLabel": "Admin dashboard",
+        "status": "online"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "Le projet nécessitait une interface web dédiée aux institutions financières pour le traitement des demandes.",
+        "problem": "Absence d’un outil centralisé permettant d’analyser efficacement les dossiers de financement.",
+        "solution": "Développement frontend d’un dashboard de gestion et d’analyse des demandes.",
+        "design": "Développement de l’interface en React JSX avec un accent sur l’ergonomie, la lisibilité des données et la productivité.",
+        "results": "Dashboard fonctionnel facilitant l’analyse et le suivi des demandes de financement."
+      },
+      "en": {
+        "context": "The project required a dedicated web interface for financial institutions to process funding requests.",
+        "problem": "Lack of a centralized tool to efficiently review financing applications.",
+        "solution": "Frontend development of a management and analysis dashboard.",
+        "design": "React JSX interface development focused on usability, data readability and productivity.",
+        "results": "Functional dashboard simplifying financing request analysis and monitoring."
+      }
+    }
+  },
+  {
+    "id": "oruko-yoruba",
+    "name": "ORUKO YORUBA",
+    "category": "cultural-platform",
+    "categoryColor": "red",
+    "image": "./assets/images/orukoyoruba.png",
+    "figmaLink": "",
+    "websiteLink": "https://orukoyoruba.vercel.app/",
+    "status": "completed",
+    "impact": {
+      "fr": [
+        "Valorisation de la culture yoruba à travers le numérique",
+        "Facilitation de l’accès aux significations et origines des noms yorubas"
+      ],
+      "en": [
+        "Promotion of Yoruba culture through digital technology",
+        "Easy access to Yoruba names meanings and origins"
+      ]
+    },
+    "translations": {
+      "fr": {
+        "description": "ORUKO YORUBA est une plateforme web servant de dictionnaire numérique des noms yorubas, de leurs significations et de leurs origines culturelles.",
+        "categoryLabel": "Plateforme culturelle",
+        "status": "en ligne"
+      },
+      "en": {
+        "description": "ORUKO YORUBA is a digital dictionary platform dedicated to Yoruba names, their meanings and cultural origins.",
+        "categoryLabel": "Cultural platform",
+        "status": "online"
+      }
+    },
+    "caseStudy": {
+      "fr": {
+        "context": "Le projet vise à préserver et rendre accessible le patrimoine culturel yoruba via le web.",
+        "problem": "Difficulté d’accès à des ressources numériques centralisées sur les noms yorubas.",
+        "solution": "Développement d’un dictionnaire web moderne permettant la recherche et la consultation des noms.",
+        "design": "Développement complet de la solution avec Next.js et conception d’une expérience simple et fluide.",
+        "results": "Plateforme accessible permettant de découvrir facilement les noms yorubas et leurs significations."
+      },
+      "en": {
+        "context": "The project aims to preserve and make Yoruba cultural heritage accessible online.",
+        "problem": "Limited access to centralized digital resources about Yoruba names.",
+        "solution": "Development of a modern web dictionary enabling search and exploration of Yoruba names.",
+        "design": "Full solution development with Next.js and a simple, user-friendly experience.",
+        "results": "Accessible platform allowing users to easily discover Yoruba names and meanings."
+      }
+    }
+  },
+    {
       "id": "la-boussole-btp-dev",
       "name": "La Boussole BTP",
       "category": "web-application",
@@ -39,130 +135,12 @@
           "results": "Controlled load times and a clearer journey for prospects."
         }
       }
-    },
-    {
-      "id": "locagest-pro",
-      "name": "Locagest Pro",
-      "category": "mobile-application",
-      "categoryColor": "green",
-      "image": "./assets/images/locagest-pro.png",
-      "demoLink": null,
-      "githubLink": null,
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "Application mobile développée en Flutter avec une base de données SQLite locale. Elle permet de gérer les loyers, la consommation d’électricité et les informations des locataires dans une maison standard, sans connexion internet.",
-          "categoryLabel": "Application Mobile",
-          "status": "En production",
-          "technologies": ["Flutter", "Dart", "SQLite"]
-        },
-        "en": {
-          "description": "Mobile application developed with Flutter using a local SQLite database. It manages rent payments, electricity consumption and tenant records for a standard household, fully offline.",
-          "categoryLabel": "Mobile Application",
-          "status": "In production",
-          "technologies": ["Flutter", "Dart", "SQLite"]
-        }
-      },
-      "caseStudy": {
-        "fr": {
-          "context": "App Flutter hors-ligne pour gestion locative et énergie dans une maison.",
-          "problem": "Fiabilité des données sans réseau, saisies simples pour un usage quotidien.",
-          "solution": "SQLite local, écrans par cas d’usage (loyer, électricité, fiches locataires), validations.",
-          "design": "Flutter, state management adapté, modèle de données normalisé.",
-          "results": "Usage terrain sans dépendance réseau ; base de données cohérente sur le long terme."
-        },
-        "en": {
-          "context": "Offline Flutter app for rent and energy management in a household.",
-          "problem": "Data reliability offline and simple daily inputs.",
-          "solution": "Local SQLite, screens per use case (rent, power, tenant records), validation.",
-          "design": "Flutter, appropriate state management, normalized data model.",
-          "results": "Field use without network dependency; consistent long-term database."
-        }
-      }
-    },
-    {
-      "id": "wabenin",
-      "name": "WABENIN",
-      "category": "web-platform",
-      "categoryColor": "purple",
-      "image": "./assets/images/wabenin.png",
-      "demoLink": "https://wabenin.vercel.app/",
-      "githubLink": null,
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "Plateforme web développée avec React JSX et Laravel permettant de découvrir des sites touristiques au Bénin et de participer à des événements culturels. Projet réalisé comme travail de soutenance.",
-          "categoryLabel": "Plateforme Web",
-          "status": "En ligne",
-          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
-        },
-        "en": {
-          "description": "Web platform built with React JSX and Laravel that allows users to explore tourist locations in Benin and participate in cultural events. Developed as a graduation project.",
-          "categoryLabel": "Web Platform",
-          "status": "Online",
-          "technologies": ["React", "JavaScript", "Laravel", "MySQL"]
-        }
-      },
-      "caseStudy": {
-        "fr": {
-          "context": "Plateforme full-stack (React + API Laravel) pour le tourisme et les événements au Bénin.",
-          "problem": "Séparer clairement front SPA et back API, gérer auth et données métier.",
-          "solution": "API REST Laravel, front React consommant les endpoints, schéma MySQL relationnel.",
-          "design": "Architecture en couches, formulaires et listes optimisés pour la lecture.",
-          "results": "Projet de soutenance livré avec parcours découverte / événements fonctionnel."
-        },
-        "en": {
-          "context": "Full-stack platform (React + Laravel API) for tourism and events in Benin.",
-          "problem": "Clear separation of SPA front and API back, auth and domain data.",
-          "solution": "Laravel REST API, React front consuming endpoints, relational MySQL schema.",
-          "design": "Layered architecture, forms and lists optimized for readability.",
-          "results": "Graduation project delivered with working discovery / event flows."
-        }
-      }
     }
+    
   ],
 
   "allProjects": [
-    {
-      "id": "la-boussole-btp-dev",
-      "name": "La Boussole BTP",
-      "category": "web-application",
-      "categoryColor": "blue",
-      "image": "./assets/images/la-boussole-btp.png",
-      "demoLink": null,
-      "githubLink": null,
-      "status": "completed",
-      "translations": {
-        "fr": {
-          "description": "Site vitrine développé en React JSX pour une entreprise béninoise du BTP. La plateforme présente les services, domaines d’intervention et réalisations de l’entreprise avec une interface moderne et responsive.",
-          "categoryLabel": "Application Web",
-          "status": "En ligne",
-          "technologies": ["React", "JavaScript", "Tailwind CSS"]
-        },
-        "en": {
-          "description": "Corporate website developed with React JSX for a Beninese construction company. The platform showcases services, expertise and completed projects through a modern and responsive interface.",
-          "categoryLabel": "Web Application",
-          "status": "Online",
-          "technologies": ["React", "JavaScript", "Tailwind CSS"]
-        }
-      },
-      "caseStudy": {
-        "fr": {
-          "context": "Site vitrine React pour une PME du BTP au Bénin.",
-          "problem": "Structurer beaucoup de contenus (services, réalisations) sans alourdir la navigation.",
-          "solution": "Composants réutilisables, sections modulaires, performance (lazy images, découpage du code).",
-          "design": "React, Tailwind CSS, mise en page responsive mobile-first.",
-          "results": "Temps de chargement maîtrisé et parcours utilisateur plus clair pour les prospects."
-        },
-        "en": {
-          "context": "React showcase site for a Beninese construction SME.",
-          "problem": "Structure rich content (services, projects) without heavy navigation.",
-          "solution": "Reusable components, modular sections, performance (lazy images, code splitting).",
-          "design": "React, Tailwind CSS, mobile-first responsive layout.",
-          "results": "Controlled load times and a clearer journey for prospects."
-        }
-      }
-    },
+    
     {
       "id": "locagest-pro",
       "name": "Locagest Pro",
