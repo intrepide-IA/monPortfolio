@@ -6,8 +6,8 @@
     "category": "admin-dashboard",
     "categoryColor": "purple",
     "image": "./assets/images/kowoweb.png",
-    "figmaLink": "",
-    "websiteLink": "https://kowo.vercel.app/",
+    "demoLink": "https://kowo.vercel.app/",
+    "githubLink": null,
     "status": "completed",
     "impact": {
       "fr": [
@@ -54,8 +54,8 @@
     "category": "cultural-platform",
     "categoryColor": "red",
     "image": "./assets/images/orukoyoruba.png",
-    "figmaLink": "",
-    "websiteLink": "https://orukoyoruba.vercel.app/",
+    "demoLink": "https://orukoyoruba.vercel.app/",
+    "githubLink": null,
     "status": "completed",
     "impact": {
       "fr": [
